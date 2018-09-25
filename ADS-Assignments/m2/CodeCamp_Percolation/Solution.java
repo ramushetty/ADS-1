@@ -21,7 +21,7 @@ class Percolation {
     /**
      * Constructs the object.
      *
-     * @param      size  The size
+     * @param      sizee  The size
      */
     Percolation(final int sizee) {
         grid = new boolean[sizee][sizee];
@@ -86,7 +86,7 @@ class Percolation {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
