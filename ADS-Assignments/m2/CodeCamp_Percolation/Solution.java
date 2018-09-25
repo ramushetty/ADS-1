@@ -72,7 +72,7 @@ class Percolation {
 	 *
 	 * @return     { returns true or not }
 	 */
-	public int convert(final int i , final int j) {
+	public int convert(final int i, final int j) {
 		return i * size + j;
 	}
 }
