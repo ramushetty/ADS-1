@@ -9,6 +9,7 @@
 
 
 // You can implement the above API to solve the problem
+import java.util.Scanner;
 class Percolation {
 	private boolean[][] grid;
 	private int size;
@@ -48,18 +49,19 @@ class Percolation {
 	}
 	public int convert(final int i , final int j) {
 		return i * size + j;
+	}
 }
-public Solution {
+public class Solution {
 	Solution() {
 		//empty.
 	}
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		int inp = scan.nextLine();
+		int inp = Integer.parseInt(scan.nextLine());
 		Percolation per = new Percolation(inp);
 		while(scan.hasNextLine()) {
 			String[] tokens = scan.nextLine().split(" ");
-			per.open(Integer.parseInt(tokens[0] - 1, Integer.parseInt(tokens[1] - 1)))
+			per.open(Integer.parseInt(tokens[0]) - 1, Integer.parseInt(tokens[1]) - 1);
 		}
 		System.out.println(per.ispercolate());
 	}
