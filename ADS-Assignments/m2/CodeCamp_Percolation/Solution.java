@@ -1,25 +1,17 @@
-// public class Percolation {
-//    public Percolation(int n)                // create n-by-n grid, with all sites blocked
-//    public    void open(int row, int col)    // open site (row, col) if it is not open already
-//    public boolean isOpen(int row, int col)  // is site (row, col) open?
-//    public boolean isFull(int row, int col)  // is site (row, col) full?
-//    public     int numberOfOpenSites()       // number of open sites
-//    public boolean percolates()              // does the system percolate?
-// }
 
 
-// You can implement the above API to solve the problem
+
 import java.util.Scanner;
 /**
  * Class for percolation.
  */
 class Percolation {
 	/**
-	 * { boolean 2D array }
+	 * { boolean 2D array }.
 	 */
 	private boolean[][] grid;
 	/**
-	 * { size of array }
+	 * { size of array }.
 	 */
 	private int size;
 	WeightedQuickUnionUF obj;
@@ -39,7 +31,7 @@ class Percolation {
 	 * @return     { return true or false }
 	 */
 	public boolean ispercolate() {
-		return obj.connected(size * size , size * size + 1);
+		return obj.connected(size * size, size * size + 1);
 	}
 	/**
 	 * { opens the block sites }.
@@ -47,8 +39,8 @@ class Percolation {
 	 * @param      row     The row
 	 * @param      column  The column
 	 */
-	public void open(final int row, final int column){
-		if(grid[row][column]){
+	public void open(final int row, final int column) {
+		if(grid[row][column]) {
 			return;
 		}
 		grid[row][column] = true;
@@ -64,10 +56,10 @@ class Percolation {
 		if(row > 0 && grid[row - 1][column]) { //top element
 			obj.union(convert(row, column), convert(row - 1, column));
 		}
-		if(column > 0 && grid[row][column - 1]){ //left element
+		if(column > 0 && grid[row][column - 1]) { //left element
 			obj.union(convert(row, column), convert(row, column - 1));
 		}
-		if(column < size - 1 && grid[row][column + 1]){ //right element
+		if(column < size - 1 && grid[row][column + 1]) { //right element
 			obj.union(convert(row, column), convert(row, column + 1));
 		}
 	
@@ -95,17 +87,18 @@ public class Solution {
 		//empty.
 	}
 	/**
-	 * { main function }
+	 * { main function }.
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int inp = Integer.parseInt(scan.nextLine());
 		Percolation per = new Percolation(inp);
-		while(scan.hasNextLine()) {
+		while (scan.hasNextLine()) {
 			String[] tokens = scan.nextLine().split(" ");
-			per.open(Integer.parseInt(tokens[0]) - 1, Integer.parseInt(tokens[1]) - 1);
+			per.open(Integer.parseInt(
+				tokens[0]) - 1, Integer.parseInt(tokens[1]) - 1);
 		}
 		System.out.println(per.ispercolate());
 	}
