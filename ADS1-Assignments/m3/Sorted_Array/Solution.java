@@ -1,4 +1,41 @@
 import java.util.Scanner;
+class merge {
+	int[] arr1;
+	int[] arr2;
+	int[] finalarray;
+	int totallength;
+	int k = 0;
+	int i = 0;
+	int j = 0;
+	public void mergesort(int[] arf, int[] ars) {
+		this.arr1 = arf;
+		this.arr2 = ars;
+		totallength = arf.length + ars.length;
+		finalarray = new int[totallength];
+		while (i < arr1.length && j < arr2.length) {
+			if (arr1[i] < arr2[j]) {
+				finalarray[k] = arr1[i];
+				i++;
+				k++;
+			} else {
+				finalarray[k] = arr2[j];
+				j++;
+				k++;
+			}
+
+		}
+		while (i < arr1.length) {
+			finalarray[k++] = arr1[i++];
+		}
+		while (j < arr2.length) {
+			finalarray[k++] = arr2[j++];
+		}
+
+
+	}
+	
+
+}
 class  Solution {
 	// private Solution() {
 	// 	//empty.
@@ -9,13 +46,24 @@ class  Solution {
 		String leng2 = scan.nextLine();
 		String ast1 = scan.nextLine();
 		String ast2 = scan.nextLine();
-
-
-		if (Integer.parseInt(leng1) != 0 && Integer.parseInt(leng2) != 0) {
+		int a1 = Integer.parseInt(leng1);
+		int a2 = Integer.parseInt(leng2);
+		merge mer = new merge();
+		if (a1 != 0 && a2 != 0) {
 			String[] arr1 = ast1.split(",");
+			int[] array1 = new int[a1];
+
+			for (int i = 0; i < a1; i++) {
+				array1[i] = Integer.parseInt(arr1[i]);
+			}
 			String[] arr2 = ast2.split(",");
+			int[] array2 = new int[a2];
+			for (int i = 0; i < a2; i++) {
+				array2[i] = Integer.parseInt(arr2[i]);
+			}
+			mer.mergesort(array1, array2);
 		} else {
-			if (Integer.parseInt(leng1) == 0) {
+			if (a1 == 0) {
 				System.out.println(ast2);
 			} else {
 				System.out.println(ast1);
