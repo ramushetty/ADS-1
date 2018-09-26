@@ -33,8 +33,16 @@ class merge {
 			finalarray[k++] = arr2[j++];
 		}
 
-		System.out.println(Arrays.toString(finalarray));
+	}
 
+	public void toString(int[] array) {
+		int i = 0;
+		String s = "";
+		for (i = 0; i < array.length - 1; i++) {
+			s += array[i] + ",";
+		}
+		s = s + array[i];
+		System.out.println(s);
 	}
 	
 }
