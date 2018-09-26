@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.Arrays;
+
 class merge {
 	int[] arr1;
 	int[] arr2;
@@ -31,10 +33,10 @@ class merge {
 			finalarray[k++] = arr2[j++];
 		}
 
+		System.out.println(Arrays.toString(finalarray));
 
 	}
 	
-
 }
 class  Solution {
 	// private Solution() {
