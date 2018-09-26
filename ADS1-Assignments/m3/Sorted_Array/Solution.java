@@ -10,8 +10,6 @@ class  Solution {
 		String ast1 = scan.nextLine();
 		String ast2 = scan.nextLine();
 
-		System.out.println(ast2);
-		System.out.println(ast1);
 
 		if (Integer.parseInt(leng1) != 0 && Integer.parseInt(leng2) != 0) {
 			String[] arr1 = ast1.split(",");
