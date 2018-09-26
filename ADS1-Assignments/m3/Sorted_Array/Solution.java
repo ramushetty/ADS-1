@@ -4,13 +4,40 @@ import java.util.Arrays;
  * Class for merge.
  */
 class merge {
+	/**
+	 * { array 1 }.
+	 */
 	private int[] arr1;
+	/**
+	 * { array 2}.
+	 */
 	private int[] arr2;
+	/**
+	 * { final array nothing merged array }.
+	 */
 	private int[] finalarray;
+	/**
+	 * { total length of final array}.
+	 */
 	private int totallength;
+	/**
+	 * { variable k for iterating final array }.
+	 */
 	private int k = 0;
+	/**
+	 * { variable i for iterating array 1}.
+	 */
 	private int i = 0;
+	/**
+	 * { variable j for iterating array 2 }.
+	 */
 	private int j = 0;
+	/**
+	 * { to merge two arrays we use mergesort method here }.
+	 *
+	 * @param      arf   first array
+	 * @param      ars   second array
+	 */
 	public void mergesort(final int[] arf, final int[] ars) {
 		this.arr1 = arf;
 		this.arr2 = ars;
