@@ -1,15 +1,17 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
+/**
+ * Class for merge.
+ */
 class merge {
-	int[] arr1;
-	int[] arr2;
-	int[] finalarray;
-	int totallength;
-	int k = 0;
-	int i = 0;
-	int j = 0;
-	public void mergesort(int[] arf, int[] ars) {
+	private int[] arr1;
+	private int[] arr2;
+	private int[] finalarray;
+	private int totallength;
+	private int k = 0;
+	private int i = 0;
+	private int j = 0;
+	public void mergesort(final int[] arf, final int[] ars) {
 		this.arr1 = arf;
 		this.arr2 = ars;
 		totallength = arf.length + ars.length;
@@ -34,7 +36,11 @@ class merge {
 		}
 		toString(finalarray);
 	}
-
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @param      array  The array
+	 */
 	public void toString(int[] array) {
 		int i = 0;
 		String s = "";
@@ -44,12 +50,20 @@ class merge {
 		s = s + array[i];
 		System.out.println(s);
 	}
-	
+
 }
+/**
+ * Class for solution.
+ */
 class  Solution {
-	// private Solution() {
-	// 	//empty.
-	// }
+	private Solution() {
+		//empty.
+	}
+	/**
+	 * { main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String leng1 = scan.nextLine();
