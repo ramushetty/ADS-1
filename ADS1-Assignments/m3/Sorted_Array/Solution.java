@@ -32,7 +32,7 @@ class merge {
 		while (j < arr2.length) {
 			finalarray[k++] = arr2[j++];
 		}
-
+		toString(finalarray);
 	}
 
 	public void toString(int[] array) {
