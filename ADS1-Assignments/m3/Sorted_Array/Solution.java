@@ -68,13 +68,12 @@ class merge {
 	 *
 	 * @param      array  The array
 	 */
-	public void toString(int[] array) {
-		int i = 0;
+	public void toString(final int[] array) {
 		String s = "";
-		for (i = 0; i < array.length - 1; i++) {
+		for (int i = 0; i < array.length - 1; i++) {
 			s += array[i] + ",";
 		}
-		s = s + array[i];
+		s = s + array[array.length - 1];
 		System.out.println(s);
 	}
 
@@ -82,7 +81,7 @@ class merge {
 /**
  * Class for solution.
  */
-class  Solution {
+public final class  Solution {
 	/**
 	 * empty constructor.
 	 */
