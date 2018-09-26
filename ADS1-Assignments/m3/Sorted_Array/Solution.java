@@ -15,9 +15,9 @@ class  Solution {
 			String[] arr2 = ast2.split(",");
 		} else {
 			if (leng1 == 0) {
-				System.out.println(scan.nextLine());
+				System.out.println(ast1);
 			} else {
-				System.out.println(scan.nextLine());
+				System.out.println(ast2);
 			}
 		}
 
