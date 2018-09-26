@@ -8,8 +8,9 @@ class  Solution {
 		int leng1 = scan.nextInt();
 		int leng2 = scan.nextInt();
 		String ast1 = scan.nextLine();
+		System.out.println(ast1);
 		String ast2 = scan.nextLine();
-
+		System.out.println(ast2);
 		if (leng2 != 0 && leng1 != 0) {
 			String[] arr1 = ast1.split(",");
 			String[] arr2 = ast2.split(",");
