@@ -83,6 +83,9 @@ class merge {
  * Class for solution.
  */
 class  Solution {
+	/**
+	 * empty constructor.
+	 */
 	private Solution() {
 		//empty.
 	}
@@ -91,7 +94,7 @@ class  Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String leng1 = scan.nextLine();
 		String leng2 = scan.nextLine();
