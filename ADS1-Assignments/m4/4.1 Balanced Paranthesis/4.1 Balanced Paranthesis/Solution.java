@@ -57,7 +57,7 @@ class Stack {
 }
 class Isbalanced {
 
-	public void isbalanced(String items) {
+	public boolean isbalanced(String items) {
 		String all = items;
 		char leftpar = '(';
 		char rightpar = ')';
@@ -79,42 +79,32 @@ class Isbalanced {
 			}
 			if (all.charAt(i) == rightpar) {
 				if (stack.isempty()) {
-					System.out.println("NO");
-					break;
+					return false;
 				}
 				if (stack.pop() != leftpar) {
-					System.out.println("NO");
-					break;
-				} 
+					return false;
+				}
+
 			}
 			if (all.charAt(i) == rightbrac) {
 				if (stack.isempty()) {
-					System.out.println("NO");
-					break;
+					return false;
 				}
 				if (stack.pop() != leftbrac) {
-					System.out.println("NO");
-					break;
+					return false;
 				} 
 			}
 			if (all.charAt(i) == rightsquarebrac) {
 				if (stack.isempty()) {
-					System.out.println("NO");
-					break;
+					return false;
 				}
 				if (stack.pop() != leftsquarebrac) {
-					System.out.println("NO");
-					break;
+					return false;
 				} 
 			}
 		}
-		if (stack.isempty()) {
-			System.out.println("YES");
-
-		} else {
-			System.out.println("NO");
-		}
-
+	return stack.isempty();
+			
 	}
 }
 public final class Solution {
@@ -130,7 +120,11 @@ public final class Solution {
 		while (k < len) {
 			String inp = scan.nextLine();
 			// String[] tokens = inp.split("null");
-			bal.isbalanced(inp);
+			if(bal.isbalanced(inp)) {
+				System.out.println("YES");
+			} else {
+				System.out.println("NO");
+			}
 			k++;
 		}
 		
