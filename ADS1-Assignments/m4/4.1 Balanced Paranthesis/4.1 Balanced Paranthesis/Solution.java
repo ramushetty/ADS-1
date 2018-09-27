@@ -3,7 +3,13 @@ import java.util.Scanner;
  * Class for isbalanced.
  */
 class Isbalanced {
-
+    /**
+     * { isbalanced function}.
+     *
+     * @param      items  The items
+     *
+     * @return     { returns true or false }
+     */
     public boolean isbalanced(final String items) {
         String all = items;
         char leftpar = '(';
