@@ -1,22 +1,35 @@
 import java.util.Scanner;
+/**
+ * Class for node.
+ */
 class Node {
+	/**
+	 * { data }.
+	 */
 	char data;
 	Node next;
 	Node() {
-		// data = 'null';
-		next = null;
+		//empty
 	}
-	Node(char c) {
-		data = c;
-		next = null;
-	}
+	
 }
+/**
+ * Class for linkedlist.
+ */
 class Linkedlist {
 	int size = 0;
 	Node first;
+	/**
+	 * Constructs the object.
+	 */
 	Linkedlist() {
 		first = null;
 	}
+	/**
+	 * { inserts node with data }.
+	 *
+	 * @param      c     { data}
+	 */
 	public void insertfront(char c) {
 		Node newnode = new Node();
 		newnode.data = c;
@@ -24,6 +37,11 @@ class Linkedlist {
 		first = newnode;
 		size++;
 	}
+	/**
+	 * { deletes the front node of a linkedlist }.
+	 *
+	 * @return     { returns deleted node  }
+	 */
 	public  char deletefront() {
 		char temp = first.data;
 		first = first.next;
@@ -31,21 +49,47 @@ class Linkedlist {
 
 		return temp;
 	}
+	/**
+	 * { returns size of a stack }.
+	 *
+	 * @return     { returns size }
+	 */
 	public int size() {
 		return size;
 	}
 }
+/**
+ * List of .
+ */
 class Stack {
 	Linkedlist list;
+	/**
+	 * Constructs the object.
+	 */
 	Stack() {
 		list = new Linkedlist();
 	}
+	/**
+	 * push method.
+	 *
+	 * @param      element  The element
+	 */
 	public void push(char element) {
 		list.insertfront(element);
 	}
+	/**
+	 * { pop function }.
+	 *
+	 * @return     { returns char  }
+	 */
 	public char pop() {
 		return list.deletefront();
 	}
+	/**
+	 * { isempty function }.
+	 *
+	 * @return     { returns size of the stack }
+	 */
 	public boolean isempty() {
 		if (list.size() == 0) {
 			return true; 
@@ -55,9 +99,12 @@ class Stack {
 
 
 }
+/**
+ * Class for isbalanced.
+ */
 class Isbalanced {
 
-	public boolean isbalanced(String items) {
+	public boolean isbalanced(final String items) {
 		String all = items;
 		char leftpar = '(';
 		char rightpar = ')';
@@ -107,11 +154,22 @@ class Isbalanced {
 			
 	}
 }
+/**
+ *  Solution class.
+ */
 public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
 		//empty.
 	}
-	public static void main(String[] args) {
+	/**
+	 * { main function }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Isbalanced bal = new Isbalanced();
 		Scanner scan = new Scanner(System.in);
 		String l = scan.nextLine();
@@ -119,7 +177,6 @@ public final class Solution {
 		int k = 0;
 		while (k < len) {
 			String inp = scan.nextLine();
-			// String[] tokens = inp.split("null");
 			if(bal.isbalanced(inp)) {
 				System.out.println("YES");
 			} else {
