@@ -85,10 +85,7 @@ class Isbalanced {
 				if (stack.pop() != leftpar) {
 					System.out.println("NO");
 					break;
-				} else {
-					System.out.println("YES");
-					break;
-				}
+				} 
 			}
 			if (all.charAt(i) == rightbrac) {
 				if (stack.isempty()) {
@@ -98,10 +95,7 @@ class Isbalanced {
 				if (stack.pop() != leftbrac) {
 					System.out.println("NO");
 					break;
-				} else {
-					System.out.println("YES");
-					break;
-				}
+				} 
 			}
 			if (all.charAt(i) == rightsquarebrac) {
 				if (stack.isempty()) {
@@ -111,11 +105,14 @@ class Isbalanced {
 				if (stack.pop() != leftsquarebrac) {
 					System.out.println("NO");
 					break;
-				} else {
-					System.out.println("YES");
-					break;
-				}
+				} 
 			}
+		}
+		if (stack.isempty()) {
+			System.out.println("YES");
+
+		} else {
+			System.out.println("NO");
 		}
 
 	}
