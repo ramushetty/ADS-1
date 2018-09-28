@@ -41,8 +41,7 @@ class Josephus {
                 list.deletefirst();
                 temp = temp.next;
                 count = 1;
-            }
-            else {
+            } else {
                 list.insertlast(temp.data);
                 temp = temp.next;
                 list.deletefirst();
