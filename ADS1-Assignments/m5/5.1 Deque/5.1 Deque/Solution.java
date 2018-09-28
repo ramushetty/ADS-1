@@ -15,15 +15,23 @@ class Deque {
 		System.out.println(list.size());
 	}
 	public void popLeft() {
+		if (list.size() == 0) {
+			System.out.println("Deck is empty");
+			return;
+		}
 		list.deletefirst();
 		list.tostring();
 		
 
 	}
 	public void popRight() {
+		if (list.size() == 0) {
+			System.out.println("Deck is empty");
+			return;
+		}
 		list.deletelast();
 		list.tostring();
-		
+
 	}
 }
 public final class Solution {
@@ -36,7 +44,7 @@ public final class Solution {
 
 		int num = scan.nextInt();
 		int i = 0;
-		while(i < num) {
+		while(i <= num) {
 			String[] str = scan.nextLine().split(" ");
 
 

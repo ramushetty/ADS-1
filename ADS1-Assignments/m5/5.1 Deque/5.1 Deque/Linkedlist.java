@@ -117,7 +117,7 @@ class Linkedlist {
 		// }
 		if (size == 0) 
         {
-            System.out.print("empty");
+            System.out.print("[]");
             return;
         }    
         // if (first.next == null) 
