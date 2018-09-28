@@ -32,7 +32,7 @@ class Josephus {
 				count++;
 			}
 		}
-		String[] tokens = str.split(" ", str.length());
+		String[] tokens = str.split(" ");
 		int i = 0;
 		for (i = 0; i < tokens.length - 1; i++) {
 			System.out.print(tokens[i] + " ");
