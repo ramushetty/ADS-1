@@ -7,6 +7,9 @@ class Josephus {
      * {linked list }.
      */
     private Linkedlist list = new Linkedlist();
+    /**
+     * Constructs the object.
+     */
     Josephus() {
         list = new Linkedlist();
     }
