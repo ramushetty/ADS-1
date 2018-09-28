@@ -1,19 +1,37 @@
 import java.util.Scanner;
+/**
+ * Class for deque.
+ */
 class Deque {
 	Linkedlist list = new Linkedlist();
-
-	public void pushLeft(int item) {
+	/**
+	 * Pushes a left.
+	 *
+	 * @param      item  The item
+	 */
+	public void pushLeft(final int item) {
 		list.insertfirst(item);
 		list.tostring();
 	}
-	public void pushRight(int item) {
+	/**
+	 * Pushes a right.
+	 *
+	 * @param      item  The item
+	 */
+	public void pushRight(final int item) {
 		list.insertlast(item);
 		list.tostring();
 
 	}
+	/**
+	 * { size }.
+	 */
 	public void  size() {
 		System.out.println(list.size());
 	}
+	/**
+	 * { pop left element}.
+	 */
 	public void popLeft() {
 		if (list.size() == 0) {
 			System.out.println("Deck is empty");
@@ -21,9 +39,12 @@ class Deque {
 		}
 		list.deletefirst();
 		list.tostring();
-		
+
 
 	}
+	/**
+	 * { pop right element}.
+	 */
 	public void popRight() {
 		if (list.size() == 0) {
 			System.out.println("Deck is empty");
@@ -34,11 +55,22 @@ class Deque {
 
 	}
 }
+/**
+ * { Solution class }.
+ */
 public final class Solution {
-	Solution() {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
 		//empty.
 	}
-	public static void main(String[] args) {
+	/**
+	 * { main function }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Deque de = new Deque();
 		Scanner scan = new Scanner(System.in);
 
@@ -48,25 +80,25 @@ public final class Solution {
 			String[] str = scan.nextLine().split(" ");
 
 
-			switch(str[0]) {
-				case "pushLeft":
-					de.pushLeft(Integer.parseInt(str[1]));
-					break;
-				case "size":
-					de.size();
+			switch (str[0]) {
+			case "pushLeft":
+				de.pushLeft(Integer.parseInt(str[1]));
+				break;
+			case "size":
+				de.size();
 
-					break;
-				case "pushRight":
-					de.pushRight(Integer.parseInt(str[1]));
-					break;
-				case "popLeft":
-					de.popLeft();
-					break;
-				case "popRight":
-					de.popRight();
-					break;
-				default:
-					break;
+				break;
+			case "pushRight":
+				de.pushRight(Integer.parseInt(str[1]));
+				break;
+			case "popLeft":
+				de.popLeft();
+				break;
+			case "popRight":
+				de.popRight();
+				break;
+			default:
+				break;
 
 			}
 
