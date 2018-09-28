@@ -42,9 +42,9 @@ public final class Solution {
 		Deque de = new Deque();
 		Scanner scan = new Scanner(System.in);
 
-		int num = scan.nextInt();
+		int num = Integer.parseInt(scan.nextLine());
 		int i = 0;
-		while(i <= num) {
+		while(i < num) {
 			String[] str = scan.nextLine().split(" ");
 
 
