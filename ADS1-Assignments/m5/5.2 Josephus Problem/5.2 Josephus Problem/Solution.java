@@ -16,20 +16,28 @@ class Josephus {
 	public void josephus2(final int first, final int second) {
 		Node temp = list.first;
 		int count = 1;
-		while (list.size() <= first) {
+		String str = "";
+		while (temp != null) {
 			if (count == second) {
-				System.out.println(temp.data);
+				// System.out.print(temp.data + " ");
+				str += temp.data + " ";
 				list.deletefirst();
+				temp = temp.next;
 				count = 1;
 			}
 			else {
-				list.insertlast(list.first.data);
+				list.insertlast(temp.data);
 				temp = temp.next;
 				list.deletefirst();
 				count++;
 			}
-
 		}
+		String[] tokens = str.split(" ", str.length());
+		int i = 0;
+		for (i = 0; i < tokens.length - 1; i++) {
+			System.out.print(tokens[i] + " ");
+		}
+		System.out.println(tokens[i]);
 	}
 
 }
@@ -61,7 +69,6 @@ public final class Solution {
 
             de.josephus1(first);
             de.josephus2(first, second);
-
             i++;
         }
     }

@@ -1,17 +1,4 @@
-/**
- * Class for node.
- */
-class Node {
-	/**
-	 * { data }.
-	 */
-	int data;
-	Node next;
-	Node() {
-		//empty
-	}
-	
-}
+
 /**
  * Class for linkedlist.
  */
@@ -79,9 +66,13 @@ class Linkedlist {
 		return size;
 	}
 	public void insertlast(int num) {
-		
-
 		Node newnode = new Node();
+		if (first == null) {
+			newnode.data = num;
+			newnode.next = null;
+			first = newnode;
+			last = newnode;
+		}
 		newnode.data =  num;
 		newnode.next = null;
 		last.next = newnode;
