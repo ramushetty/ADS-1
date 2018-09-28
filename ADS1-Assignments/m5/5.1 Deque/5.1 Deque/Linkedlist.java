@@ -50,7 +50,7 @@ class Linkedlist {
 	 */
 	public  void deletefirst() {
 		if (size == 0) {
-			System.out.println("empty");
+			System.out.println("[]");
 			return;
 		}
 		first = first.next;
@@ -64,13 +64,7 @@ class Linkedlist {
 		}
 		temp.next = null;
 		last = temp;
-		// Node curr = null;
-
-	 //    for (curr = this.first; curr.next.next != null;curr = curr.next) {
-
-	 //    }
-
-	 //    curr.next = null;
+		
 	    size--;
 
 	}
@@ -93,11 +87,7 @@ class Linkedlist {
 		if (first == null && last != null) {
 			first = last;
 		}  
-		// Node temp = last;
-		// Node last = new Node();
-		// last.data = num;
-		// last.next = null;
-		// temp.next = last;
+	
 		
         size++ ;    
         
@@ -105,26 +95,13 @@ class Linkedlist {
 		
 	}
 	public void tostring() {
-		// Node temp = first;
-		// if (size == 1) {
-		// 	System.out.print("[" + temp.data + "]");
-		// } else {
-		// 	while (temp.next != null) {
-		// 		System.out.print("[" + temp.data + ", ");
-		// 		temp = temp.next;
-		// 	}
-		// 	System.out.println(temp.data + "]");			
-		// }
+		
 		if (size == 0) 
         {
             System.out.print("[]");
             return;
         }    
-        // if (first.next == null) 
-        // {
-        //     System.out.println("[" + first.data + "]");
-        //     return;
-        // }
+        
         Node ptr = first;
         System.out.print("[");
 
