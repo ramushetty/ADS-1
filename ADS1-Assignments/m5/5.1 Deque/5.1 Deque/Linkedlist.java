@@ -53,14 +53,16 @@ class Linkedlist {
 			System.out.println("[]");
 			return;
 		}
+		Node temp = first;
 		first = first.next;
+		temp = null;
 		size--;
 
 	}
 	public void deletelast() {
 		Node temp = first;
 		while(temp.next.next != null) {
-			temp = first.next;
+			temp = temp.next;
 		}
 		temp.next = null;
 		last = temp;
