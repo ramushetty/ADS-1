@@ -7,12 +7,23 @@ class Josephus {
 	Josephus() {
 		list = new Linkedlist();
 	}
+	/**
+	 * { for creating nodes }.
+	 *
+	 * @param      first  The first
+	 */
 	public void josephus1(final int first) {
 		for (int i = 0; i < first; i++) {
 			list.insertlast(i);
 		}
 
 	}
+	/**
+	 * { josephus2 for iterating }.
+	 *
+	 * @param      first   The first
+	 * @param      second  The second
+	 */
 	public void josephus2(final int first, final int second) {
 		Node temp = list.first;
 		int count = 1;
