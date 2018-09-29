@@ -19,7 +19,33 @@ class AddLargeNumbers {
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-    	return list1;
+    	LinkedList listtotal = new LinkedList();
+
+    	Stack st1 = new Stack();
+    	Stack st2 = new Stack();
+    	Node ptr1 = list1.first;
+        while (ptr1.next != null) {
+         	st1.push(ptr1.data);
+            ptr1 = ptr1.next;
+        }
+        st1.push(ptr1.data);
+
+        Node ptr2 = list2.first;
+        while (ptr2.next != null) {
+         	st2.push(ptr2.data);
+            ptr2 = ptr2.next;
+        }
+        st2.push(ptr2.data);
+    	while (!st1.isempty()) {
+    		int f1 = st1.pop();
+    		int f2 = st2.pop();
+    		int total = f1 + f2;
+    		listtotal.insertfirst(total);
+
+    	}
+    	return listtotal;
+
+
     }
 }
 

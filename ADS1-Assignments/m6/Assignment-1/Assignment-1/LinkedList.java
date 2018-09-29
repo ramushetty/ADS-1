@@ -18,33 +18,47 @@ class LinkedList {
 	//  *
 	//  * @param      c     { data}
 	//  */
-	// public void insertfirst(int c) {
-	// 	Node oldnode = first;
-	// 	first = new Node();
-	// 	first.data = c;
-	// 	first.next = oldnode;
-	// 	size++;
-	// 	if (first.next == null) {
-	// 		last = first;
-	// 	}
+	public void insertfirst(int c) {
+		Node oldnode = first;
+		first = new Node();
+		first.data = c;
+		first.next = oldnode;
+		size++;
+		if (first.next == null) {
+			last = first;
+		}
 		 
 
+	}
+	// /**
+	//  * { deletes the front node of a linkedList }.
+	//  *
+	//  * @return     { returns deleted node  }
+	//  */
+	// public  void deletefirst() {
+	// 	if (size == 0) {
+	// 		System.out.println("[]");
+	// 		return;
+	// 	}
+	// 	Node temp = first;
+	// 	first = first.next;
+	// 	temp = null;
+	// 	size--;
+
 	// }
-	/**
-	 * { deletes the front node of a linkedList }.
-	 *
-	 * @return     { returns deleted node  }
-	 */
-	public  void deletefirst() {
-		if (size == 0) {
-			System.out.println("[]");
-			return;
-		}
-		Node temp = first;
+	public void insertfront(int c) {
+		Node newnode = new Node();
+		newnode.data = c;
+		newnode.next = first;
+		first = newnode;
+		size++;
+	}
+	public  int deletefront() {
+		int temp = first.data;
 		first = first.next;
-		temp = null;
 		size--;
 
+		return temp;
 	}
 	public void deletelast() {
 		Node temp = first;
