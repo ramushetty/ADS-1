@@ -113,7 +113,6 @@ class LinkedList {
         }  
         
         Node ptr = first;
-        // System.out.print("[");
         String str = "";
         while (ptr.next != null)
         {

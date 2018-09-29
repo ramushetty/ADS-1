@@ -44,12 +44,23 @@ class AddLargeNumbers {
     		int quot = 0;
     		int f1 = st1.pop();
     		int f2 = st2.pop();
-    		int total = f1 + f2; 
-    		if (total / 10 >= 0) {
+    		int total = f1 + f2;
+    		if (total >= 10) {
     			listtotal.insertfirst(total % 10);
-    			quot = total % 10;
+    			quot = total / 10;
     		} else {
-    			listtotal.insertfirst(total + quot);
+    			if (quot > 0) {
+    				listtotal.insertfirst(total + quot);
+    				if (total + quot > 10) {
+    					quot = total + quot / 10;
+
+    				} else {
+    					quot = 0;
+    				}
+    			} else {
+    				listtotal.insertfirst(total + quot);
+
+    			}
 
     		}
 
