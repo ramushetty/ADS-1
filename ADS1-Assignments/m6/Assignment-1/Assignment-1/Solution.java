@@ -40,13 +40,14 @@ class AddLargeNumbers {
             ptr2 = ptr2.next;
         }
         st2.push(ptr2.data);
-    	while (!st1.isempty()) {
-    		int quot = 0;
+    	int quot = 0;
+
+    	while (!st1.isempty() && !st2.isempty()) {
     		int f1 = st1.pop();
     		int f2 = st2.pop();
     		int total = f1 + f2;
     		if (total >= 10) {
-    			listtotal.insertfirst(total % 10);
+    			listtotal.insertfirst(total % 10 + quot);
     			quot = total / 10;
     		} else {
     			if (quot > 0) {
