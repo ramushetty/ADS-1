@@ -13,13 +13,9 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-    	Node temp = list.first;
-    	String str = "";
-    	while(temp.next != null) {
-    		str += temp.data;
-    	}
-    	str += temp.data;
-    	return str;
+    	
+    	
+    	return list.tostring();
     }
 
     public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {

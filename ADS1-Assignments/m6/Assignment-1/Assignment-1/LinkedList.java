@@ -87,23 +87,24 @@ class LinkedList {
         
 		
 	}
-	public void tostring() {
+	public String tostring() {
 		
 		if (size == 0) 
         {
-            System.out.print("[]");
-            return;
+            // System.out.print("[]");
+            return "empty";
         }    
         
         Node ptr = first;
-        System.out.print("[");
-
+        // System.out.print("[");
+        String str = "";
         while (ptr.next != null)
         {
-            System.out.print( ptr.data + ", ");
+            str += ptr.data;
             ptr = ptr.next;
         }
-        System.out.println(ptr.data+ "]");
+        str += ptr.data;
+        return str;
     
 
 	}
