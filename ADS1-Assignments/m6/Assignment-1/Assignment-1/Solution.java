@@ -2,7 +2,11 @@ import java.util.Scanner;
 class AddLargeNumbers {
     public static LinkedList numberToDigits(String number) {
     	LinkedList list = new LinkedList();
+    	if (number.length() == 1) {
+    		list.insertlast(Integer.parseInt(number));
+    		return list;
 
+    	}
     	String[] numbers = number.split("");
     	for (int i = 0; i < numbers.length; i++) {
     		int tem = Integer.parseInt(numbers[i]);

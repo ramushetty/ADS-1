@@ -105,9 +105,12 @@ class LinkedList {
 		
 		if (size == 0) 
         {
-            // System.out.print("[]");
             return "empty";
-        }    
+        } 
+        if (size == 1) 
+        {
+            return first.data + "";
+        }  
         
         Node ptr = first;
         // System.out.print("[");
