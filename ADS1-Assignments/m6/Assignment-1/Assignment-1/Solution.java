@@ -46,6 +46,11 @@ class AddLargeNumbers {
     		int f1 = st1.pop();
     		int f2 = st2.pop();
     		int total = f1 + f2;
+    		if (st1.isempty()) {
+    			listtotal.insertfirst(total + quot);
+    			return listtotal;
+
+    		}
     		if (total >= 10) {
     			listtotal.insertfirst(total % 10 + quot);
     			quot = total / 10;
@@ -66,6 +71,7 @@ class AddLargeNumbers {
     		}
 
     	}
+    
     	return listtotal;
 
 
