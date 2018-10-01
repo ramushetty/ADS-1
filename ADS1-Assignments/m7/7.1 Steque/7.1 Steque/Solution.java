@@ -42,6 +42,7 @@ public class Solution {
 			Steque steque = new Steque();
 
 			while (scan.hasNextLine()) {
+
 				String str = scan.nextLine();
 
 				// System.out.println("do while inside");
@@ -62,8 +63,12 @@ public class Solution {
 							break;
 					}
 				}
+				if (scan.nextLine().equals("")) {
+					i++;
+					break;
+
+				}
 			}
-		i++;
 
 		} while (i < itr); 
 
