@@ -65,7 +65,7 @@ public class Solution {
 				}
 				if (scan.nextLine().equals("")) {
 					i++;
-					break;
+					continue;
 
 				}
 			}
