@@ -57,6 +57,7 @@ public class Solution {
 					}
 				}
 			}
+		i++;
 
 		} while (i < itr); 
 
