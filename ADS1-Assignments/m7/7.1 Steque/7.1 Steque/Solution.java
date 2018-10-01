@@ -41,11 +41,11 @@ public class Solution {
 		do {
 			Steque steque = new Steque();
 
-			System.out.println();
 			while (scan.hasNextLine()) {
 				String str = scan.nextLine();
 
 				// System.out.println("do while inside");
+				System.out.println(str);
 				if (str.equals("pop")) {
 					steque.pop();
 				} else {
@@ -58,6 +58,8 @@ public class Solution {
 							steque.enqueue(Integer.parseInt(tokens[1]));
 							break;
 						default:
+							System.out.println();
+
 							break;
 					}
 				}
