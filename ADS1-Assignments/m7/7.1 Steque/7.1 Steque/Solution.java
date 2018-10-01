@@ -44,6 +44,7 @@ public class Solution {
 				String str = scan.nextLine();
 
 				if(str.length() == 0) {
+					System.out.println();
 					break;
 				} 
 
