@@ -34,24 +34,25 @@ public class Solution {
 
 		int itr = scan.nextInt();
 		int i = 0;
-		// while (i < itr) {
 		do {
 			i++;
 			String str = scan.nextLine();
+			while (i < itr) {
 
-			if (str.equals("pop")) {
-				steque.pop();
-			} else {
-				String[] tokens = str.split(" ");
-				switch(tokens[0]) {
-					case "push":
-						steque.push(Integer.parseInt(tokens[1]));
-						break;
-					case "enqueue":
-						steque.enqueue(Integer.parseInt(tokens[1]));
-						break;
-					default:
-						break;
+				if (str.equals("pop")) {
+					steque.pop();
+				} else {
+					String[] tokens = str.split(" ");
+					switch(tokens[0]) {
+						case "push":
+							steque.push(Integer.parseInt(tokens[1]));
+							break;
+						case "enqueue":
+							steque.enqueue(Integer.parseInt(tokens[1]));
+							break;
+						default:
+							break;
+					}
 				}
 			}
 		} while (i < itr);
