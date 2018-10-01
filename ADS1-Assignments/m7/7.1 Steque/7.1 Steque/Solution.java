@@ -15,6 +15,7 @@ class Steque {
     }
     /**
      * { push }.
+     * time complexity O(1)
      *
      * @param      item  The item
      */
@@ -25,6 +26,7 @@ class Steque {
     }
     /**
      * { pop }.
+     * time complexity O(1)
      */
     public void pop() {
         list.deletefront();
@@ -34,6 +36,7 @@ class Steque {
      * { enqueue}.
      *
      * @param      item  The item
+     * time complexity is O(1)
      */
     public void enqueue(final int item) {
         list.insertlast(item);
@@ -57,6 +60,7 @@ public final class Solution {
      * { main function }.
      *
      * @param      args  The arguments
+     * time complexity is O(N^2)
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
