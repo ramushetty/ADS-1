@@ -124,7 +124,7 @@ class LinkedList {
 	            ptr = ptr.next;
 	        }
 	        str += ptr.data;
-	        System.out.println(str);
+	        System.out.println(str.trim());
 		
         
         
