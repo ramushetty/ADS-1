@@ -26,6 +26,11 @@ public class Solution {
 	private Solution() {
 		//empty.
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		// Stack stack = new Stack();
