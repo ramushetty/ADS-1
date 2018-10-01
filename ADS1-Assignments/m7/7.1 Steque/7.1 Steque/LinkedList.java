@@ -109,10 +109,10 @@ class LinkedList {
 		
 	}
 	public void tostring() {
-		if (size == 0) {
-            System.out.println("Steque is empty");
+		// if (size == 0) {
+  //           System.out.println("Steque is empty");
 
-        	} 
+  //       	} 
 		try {
 			
 			Node ptr = first;
@@ -125,7 +125,7 @@ class LinkedList {
 	        str += ptr.data;
 	        System.out.println(str);
 		} catch(Exception ex) {
-            System.out.println("Steque is empty");
+            System.out.println("");
 
 		}
 		
