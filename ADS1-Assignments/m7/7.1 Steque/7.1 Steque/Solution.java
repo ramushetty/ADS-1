@@ -3,7 +3,13 @@ import java.util.Scanner;
  * Class for steque.
  */
 class Steque {
-    LinkedList list;
+    /**
+     * { linked list}.
+     */
+    private LinkedList list;
+    /**
+     * Constructs the object.
+     */
     Steque() {
         list = new LinkedList();
     }
@@ -12,7 +18,7 @@ class Steque {
      *
      * @param      item  The item
      */
-    public void push(int item) {
+    public void push(final int item) {
         list.insertfirst(item);
         list.tostring();
 
@@ -29,7 +35,7 @@ class Steque {
      *
      * @param      item  The item
      */
-    public void enqueue(int item) {
+    public void enqueue(final int item) {
         list.insertlast(item);
         list.tostring();
 
@@ -40,7 +46,7 @@ class Steque {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -48,11 +54,11 @@ public class Solution {
         //empty.
     }
     /**
-     * { function_description }
+     * { main function }.
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int itr = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < itr; i++) {
