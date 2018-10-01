@@ -30,11 +30,12 @@ public class Solution {
 		Scanner scan = new Scanner(System.in);
 		// Stack stack = new Stack();
 		// Queue queue = new Queue();
-		Steque steque = new Steque();
 
 		int itr = scan.nextInt();
 		int i = 0;
 		do {
+			Steque steque = new Steque();
+
 			// System.out.println("do");
 			while (i < itr) {
 				String str = scan.nextLine();
@@ -56,7 +57,6 @@ public class Solution {
 					}
 				}
 			}
-			i++;
 
 		} while (i < itr); 
 
