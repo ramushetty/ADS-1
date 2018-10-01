@@ -45,7 +45,6 @@ public class Solution {
 				String str = scan.nextLine();
 
 				// System.out.println("do while inside");
-				System.out.println(str);
 				if (str.equals("pop")) {
 					steque.pop();
 				} else {
