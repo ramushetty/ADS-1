@@ -55,7 +55,6 @@ public class Solution {
 							steque.push(Integer.parseInt(tokens[1]));
 							break;
 						case "enqueue":
-						System.out.println("deepak");
 							steque.enqueue(Integer.parseInt(tokens[1]));
 							break;
 						default:

@@ -93,19 +93,19 @@ class LinkedList {
 			newnode.next = null;
 			first = newnode;
 			last = newnode;
+			return;
 		}
 		newnode.data =  num;
 		newnode.next = null;
 		last.next = newnode;
 		last = newnode;
-		if (first == null && last != null) {
-			first = last;
-		}  
+		// if (first == null && last != null) {
+		// 	first = last;
+		// }  
 	
 		
         size++ ;    
         
-        System.out.println("insertlast");
 		
 	}
 	public void tostring() {
