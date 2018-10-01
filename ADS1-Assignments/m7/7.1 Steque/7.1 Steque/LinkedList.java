@@ -125,7 +125,7 @@ class LinkedList {
 	        str += ptr.data;
 	        System.out.println(str);
 		} catch(Exception ex) {
-            System.out.println("");
+            System.out.print("");
 
 		}
 		
