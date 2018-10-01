@@ -37,14 +37,16 @@ public class Solution {
 		// Queue queue = new Queue();
 
 		int itr = Integer.parseInt(scan.nextLine());
-		int i = 0;
-		do {
+		for (int i = 0; i < itr; i++) {
 			Steque steque = new Steque();
 
 			while (scan.hasNextLine()) {
-				//if 
-
 				String str = scan.nextLine();
+
+				if(str.length() == 0) {
+					break;
+				} 
+
 
 				// System.out.println("do while inside");
 				if (str.equals("pop")) {
@@ -70,11 +72,8 @@ public class Solution {
 
 				// }
 			}
-			System.out.println();
-		i++;
-
-
-		} while (i < itr); 
+		
+		}
 
 	}
 }
