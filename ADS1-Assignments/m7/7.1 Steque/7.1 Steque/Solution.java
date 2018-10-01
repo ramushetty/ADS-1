@@ -33,9 +33,6 @@ public class Solution {
 	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		// Stack stack = new Stack();
-		// Queue queue = new Queue();
-
 		int itr = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < itr; i++) {
 			Steque steque = new Steque();
@@ -47,9 +44,6 @@ public class Solution {
 					System.out.println();
 					break;
 				} 
-
-
-				// System.out.println("do while inside");
 				if (str.equals("pop")) {
 					steque.pop();
 				} else {
@@ -62,16 +56,10 @@ public class Solution {
 							steque.enqueue(Integer.parseInt(tokens[1]));
 							break;
 						default:
-							// System.out.println();
-
 							break;
 					}
 				}
-				//System.out.println();
-				// if (scan.hasNextLine().equals("")) {
-				// 	continue;
-
-				// }
+				
 			}
 		
 		}

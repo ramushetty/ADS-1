@@ -93,6 +93,7 @@ class LinkedList {
 			newnode.next = null;
 			first = newnode;
 			last = newnode;
+			size++;
 			return;
 		}
 		newnode.data =  num;
@@ -112,7 +113,7 @@ class LinkedList {
 		if (size == 0) {
             System.out.println("Steque is empty.");
             return;
-        	} 
+        } 
 		
 			
 			Node ptr = first;
