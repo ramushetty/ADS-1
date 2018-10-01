@@ -66,11 +66,12 @@ public class Solution {
 				}
 				System.out.println();
 				// if (scan.hasNextLine().equals("")) {
-				// 	i++;
 				// 	continue;
 
 				// }
 			}
+		i++;
+
 
 		} while (i < itr); 
 
