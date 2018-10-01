@@ -34,7 +34,9 @@ public class Solution {
 
 		int itr = scan.nextInt();
 		int i = 0;
-		while (i < itr) {
+		// while (i < itr) {
+		do {
+			i++;
 			String str = scan.nextLine();
 
 			if (str.equals("pop")) {
@@ -52,7 +54,7 @@ public class Solution {
 						break;
 				}
 			}
-		}
+		} while (i < itr);
 
 	}
 }
