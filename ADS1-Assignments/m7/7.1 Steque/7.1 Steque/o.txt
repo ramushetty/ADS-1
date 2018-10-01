@@ -1,0 +1,292 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+4, 3, 2, 1, 0
+4, 3, 2, 1, 0, 1
+3, 2, 1, 0, 1
+2, 1, 0, 1
+1, 0, 1
+0, 1
+1
+Steque is empty.
+Steque is empty.
+
+Your Output: 
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+4, 3, 2, 1, 0
+4, 3, 2, 1, 0, 1
+3, 2, 1, 0, 1
+2, 1, 0, 1
+1, 0, 1
+0, 1
+1
+Steque is empty.
+Steque is empty.
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+Steque is empty.
+Steque is empty.
+
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+3, 2, 1
+2, 1
+1
+Steque is empty.
+5
+5, 6
+5, 6, 7
+5, 6, 7, 8
+6, 7, 8
+7, 8
+
+100
+100, 200
+100, 200, 300,
+100, 200, 300, 400
+100, 200, 300, 400, 500
+100, 200, 300, 400, 500, 600
+100, 200, 300, 400, 500, 600, 700
+100, 200, 300, 400, 500, 600, 700, 800
+900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+
+10
+10, 9
+8, 10, 9
+8, 10, 9, 7
+6, 8, 10, 9, 7
+6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3, 1
+
+Your Output: 
+Steque is empty.
+Steque is empty.
+
+1
+2, 1
+3, 2, 1
+4, 3, 2, 1
+3, 2, 1
+2, 1
+1
+Steque is empty.
+5
+5, 6
+5, 6, 7
+5, 6, 7, 8
+6, 7, 8
+7, 8
+
+100
+100, 200
+100, 200, 300
+100, 200, 300, 400
+100, 200, 300, 400, 500
+100, 200, 300, 400, 500, 600
+100, 200, 300, 400, 500, 600, 700
+100, 200, 300, 400, 500, 600, 700, 800
+900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100
+1000, 900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+900, 100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+100, 200, 300, 400, 500, 600, 700, 800, 1100, 1200
+
+10
+10, 9
+8, 10, 9
+8, 10, 9, 7
+6, 8, 10, 9, 7
+6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5
+4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3
+2, 4, 6, 8, 10, 9, 7, 5, 3, 1
+
+----------------------------------------
+Result: 1/2 testcases passed.
+Starting audit...
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:3:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:3:20: Variable 'list' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:7:26: Parameter item should be final. [FinalParameters]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:16:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:16:29: Parameter item should be final. [FinalParameters]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:25: Class Solution should be declared as final. [FinalClass]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:25: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:26:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:29: First sentence should end with a period. [JavadocStyle]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:34:33: Parameter args should be final. [FinalParameters]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:43:35: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:46: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:51:47: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:53: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:56: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:62: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS-1\ADS1-Assignments\m7\7.1 Steque\7.1 Steque\Solution.java:64: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 23 errors.
+
+
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation.zip
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/Percolation.class
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/Solution.class
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/Solution.java
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/WeightedQuickUnionUF.class
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/WeightedQuickUnionUF.java
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input000.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input001.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input002.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input003.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input004.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input005.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input006.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input007.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input008.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input009.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input010.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input011.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input012.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input013.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input014.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input015.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input016.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input017.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input018.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input019.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input020.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input021.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input022.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/input023.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output000.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output001.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output002.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output003.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output004.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output005.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output006.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output007.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output008.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output009.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output010.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output011.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output012.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output013.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output014.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output015.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output016.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output017.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output018.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output019.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output020.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output021.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output022.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/output023.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/problem_id.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/md5/score.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/readme.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/result/score.json
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input000.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input001.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input002.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input003.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input004.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input005.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input006.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input007.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input008.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input009.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input010.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input011.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input012.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input013.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input014.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input015.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input016.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input017.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input018.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input019.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input020.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input021.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input022.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/input023.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output000.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output001.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output002.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output003.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output004.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output005.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output006.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output007.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output008.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output009.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output010.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output011.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output012.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output013.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output014.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output015.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output016.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output017.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output018.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output019.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output020.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output021.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output022.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/output023.txt
+	deleted:    ../../../../ADS-Assignments/m2/CodeCamp_Percolation/testcases/problem_id.txt
+	modified:   ../../../m4/4.1 Balanced Paranthesis/4.1 Balanced Paranthesis/Stack.java
+	modified:   ../../../m5/5.1 Deque/5.1 Deque/Linkedlist.java
+	modified:   ../../../m5/5.2 Josephus Problem/5.2 Josephus Problem/node.java
+	modified:   ../../../m6/Assignment-1/Assignment-1/AddLargeNumbers.class
+	modified:   ../../../m6/Assignment-1/Assignment-1/Solution.class
+	modified:   ../../../m6/Assignment-1/Assignment-1/Solution.java
+
+Untracked files:
+	../../../m2/
+	../../../m3/3-sum.zip
+	../../../m3/3-sum/
+	../../../m3/Sorted_Array.zip
+	../../../m4/4.1 Balanced Paranthesis.zip
+	../../../m4/4.2 Evaluate Postfix.zip
+	../../../m4/4.2 Evaluate Postfix/
+	../../../m5/5.1 Deque.zip
+	../../../m5/5.2 Josephus Problem.zip
+	../../../m6/Assignment-1.zip
+	../../7.1 Steque.zip
+	../../../../ADS1-practice/m3/BinarySearch.zip
+	../../../../ADS1-practice/m3/BinarySearch/
+	../../../../ADS1-practice/m3/No_of_pairs.zip
+
+no changes added to commit
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
