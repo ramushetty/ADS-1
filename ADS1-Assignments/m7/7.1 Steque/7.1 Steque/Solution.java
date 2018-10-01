@@ -64,12 +64,13 @@ public class Solution {
 							break;
 					}
 				}
-				System.out.println();
+				//System.out.println();
 				// if (scan.hasNextLine().equals("")) {
 				// 	continue;
 
 				// }
 			}
+			System.out.println();
 		i++;
 
 
