@@ -35,11 +35,11 @@ public class Solution {
 		int itr = scan.nextInt();
 		int i = 0;
 		do {
-			System.out.println("do");
+			// System.out.println("do");
 			while (i < itr) {
 				String str = scan.nextLine();
 
-				System.out.println("do while inside");
+				// System.out.println("do while inside");
 				if (str.equals("pop")) {
 					steque.pop();
 				} else {
