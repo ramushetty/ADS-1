@@ -35,7 +35,6 @@ public class Solution {
 		int itr = scan.nextInt();
 		int i = 0;
 		do {
-			i++;
 			String str = scan.nextLine();
 			while (i < itr) {
 
@@ -55,6 +54,8 @@ public class Solution {
 					}
 				}
 			}
+			i++;
+			
 		} while (i < itr);
 
 	}
