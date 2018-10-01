@@ -59,7 +59,7 @@ public class Solution {
 							steque.enqueue(Integer.parseInt(tokens[1]));
 							break;
 						default:
-							System.out.println();
+							// System.out.println();
 
 							break;
 					}
