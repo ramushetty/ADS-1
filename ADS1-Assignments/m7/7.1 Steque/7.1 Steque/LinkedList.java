@@ -55,8 +55,15 @@ class LinkedList {
 	}
 	public  void deletefront() {
 		// int temp = first.data;
-		first = first.next;
-		size--;
+		try {
+			first = first.next;
+			size--;
+		}  catch(Exception ex) {
+            System.out.println("Steque is empty");
+
+		}
+
+		
 
 		// return temp;
 	}
@@ -104,7 +111,7 @@ class LinkedList {
 	public void tostring() {
 		if (size == 0) {
             System.out.println("Steque is empty");
-			
+
         	} 
 		try {
 			
@@ -116,17 +123,12 @@ class LinkedList {
 	            ptr = ptr.next;
 	        }
 	        str += ptr.data;
-	        // return str;
 	        System.out.println(str);
 		} catch(Exception ex) {
             System.out.println("Steque is empty");
 
 		}
 		
-        // if (size == 1) 
-        // {
-        //     return first.data + "";
-        // }  
         
         
     
