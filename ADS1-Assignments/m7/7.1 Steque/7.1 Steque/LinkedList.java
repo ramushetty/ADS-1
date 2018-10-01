@@ -105,7 +105,7 @@ class LinkedList {
 		
         size++ ;    
         
-        
+        System.out.println("insertlast");
 		
 	}
 	public void tostring() {
