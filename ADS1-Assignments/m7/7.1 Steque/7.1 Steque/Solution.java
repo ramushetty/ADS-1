@@ -36,12 +36,12 @@ public class Solution {
 		// Stack stack = new Stack();
 		// Queue queue = new Queue();
 
-		int itr = scan.nextInt();
+		int itr = Integer.parseInt(scan.nextLine());
 		int i = 0;
 		do {
 			Steque steque = new Steque();
 
-			// System.out.println("do");
+			System.out.println();
 			while (scan.hasNextLine()) {
 				String str = scan.nextLine();
 

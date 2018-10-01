@@ -110,7 +110,7 @@ class LinkedList {
 	}
 	public void tostring() {
 		if (size == 0) {
-            System.out.println("Steque is empty");
+            System.out.println("Steque is empty.");
             return;
         	} 
 		
