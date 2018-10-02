@@ -140,7 +140,7 @@ class Insertionsort {
                 if (items[i].compareTo(items[j]) < 0) {
                     break;
                 }
-                items[j + 1] = items[j];
+                items[j] = items[j + 1];
                 j = j - 1;
             }
             items[j + 1] = items[min];
