@@ -143,7 +143,7 @@ class Insertionsort {
                 items[j + 1] = items[j];
                 j = j - 1;
             }
-            items[j + 1] = items[i];
+            items[j + 1] = items[min];
             
         }
         for (int i = 0; i < size - 1; i++) {
