@@ -50,8 +50,6 @@ class Teams {
         if (this.wins == items.wins) {
             if (this.losses > items.losses) {
                 return true;
-            } else {
-                return false;
             }
         }
         if (this.wins < items.wins) {
