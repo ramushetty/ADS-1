@@ -13,10 +13,9 @@ class Teams {
 	}
 	public int compareTo(Teams items) {
 		if (this.wins == items.wins && this.losses == items.losses) {
-			if (this.draws < items.losses) {
+			if (this.draws < items.draws) {
 				return 1;
-			} 
-			return -1;
+			}
 		}
 		if (this.wins == items.wins) {
 			if(this.losses > items.losses) {
@@ -47,7 +46,7 @@ class Leadboard {
 		so = new selectionsort();
 	}
 	public void add(Teams item) {
-		if (teams.length >= size) {
+		if (teams.length == size) {
 			resize();
 		}
 		teams[size++] = item;
@@ -56,17 +55,16 @@ class Leadboard {
 		teams = Arrays.copyOf(teams, teams.length*2);
 	}
 	void sort() {
-		so.sort(teams);
+		so.sort(teams, size);
 	}
 
 }
 class selectionsort {
-	void sort(Teams[] items) {
-		for (int i = 0; i < items.length; i++) {
+	void sort(Teams[] items, int size) {
+		for (int i = 0; i < size; i++) {
 			int min = i;
-			for (int j = i + 1; j < items.length; j++) {
+			for (int j = i + 1; j < size; j++) {
 				if (items[min].compareTo(items[j]) > 0) {
-					System.out.println(items[j].getteamname());
 					min = j;
 				}
 
@@ -75,9 +73,10 @@ class selectionsort {
 			items[min] = items[i];
 			items[i] = temp;
 		}
-		for (int i = 0; i < items.length; i++) {
-			System.out.println(items[i].getteamname() + ",");
+		for (int i = 0; i < size - 1; i++) {
+			System.out.print(items[i].getteamname() + ",");
 		}
+		System.out.println(items[size - 1].getteamname());
 	}
 
 }
