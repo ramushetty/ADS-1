@@ -1,0 +1,18 @@
+E A S Y Q U E S T I O N
+
+first it will take E and then iterate all from A to N
+	from A to N A is less than E so E is replaced by A and new Sequence will be 
+	A E S Y Q U E S T I O N
+
+A E S Y Q U E S T I O N 
+	now pointer starts from E and then iterate through S to N
+	from S to N nothing  is less than E so E is not replaced by anything
+	A E S Y Q U E S T I O N 
+A E S Y Q U E S T I O N 
+	now pointer starts from s and then iterate through Y to N
+	from Y to N S is less than E so E is replaced by S and new Sequence will be 
+	A E E Y Q U S S T I O N
+By doing this we get a final sequence in ascending order as 
+=======================================
+A, E, E, I, N, O, Q, S, S, T, U, Y	======
+========================================
