@@ -1,17 +1,47 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for teams.
+ */
 class Teams {
-	String teamname;
-	int wins;
-	int losses;
-	int draws;
-	Teams(String name, int win, int loss, int draw) {
+	/**
+	 * team name.
+	 */
+	private String teamname;
+	/**
+	 * wins of team.
+	 */
+	private int wins;
+	/**
+	 * losses.
+	 */
+	private int losses;
+	/**
+	 * draws.
+	 */
+	private int draws;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      name  The name
+	 * @param      win   The window
+	 * @param      loss  The loss
+	 * @param      draw  The draw
+	 */
+	Teams(final String name, final int win, final int loss, final int draw) {
 		teamname = name;
 		wins = win;
 		losses = loss;
 		draws = draw;
 	}
-	public int compareTo(Teams items) {
+	/**
+	 * compares two teams.
+	 *
+	 * @param      items  The items
+	 *
+	 * @return     returns -1 or 1 or 0
+	 */
+	public int compareTo(final Teams items) {
 		if (this.wins == items.wins && this.losses == items.losses) {
 			if (this.draws < items.draws) {
 				return 1;
@@ -31,11 +61,19 @@ class Teams {
 		
 
 	}
+	/**
+	 * returns teamname.
+	 *
+	 * @return     { teamname}
+	 */
 	public String getteamname() {
 		return teamname;
 	}
 
 }
+/**
+ * Class for leadboard.
+ */
 class Leadboard {
 	Teams[] teams;
 	int size;
@@ -45,22 +83,44 @@ class Leadboard {
 		size = 0;
 		so = new selectionsort();
 	}
-	public void add(Teams item) {
+
+	/**
+	 * adds team to a leadboard.
+	 *
+	 * @param      item  The item
+	 */
+	public void add(final Teams item) {
 		if (teams.length == size) {
 			resize();
 		}
 		teams[size++] = item;
 	}
+	/**
+	 * increses the size of array
+	 */
 	public void resize() {
 		teams = Arrays.copyOf(teams, teams.length*2);
 	}
+	/**
+	 * calling sort function
+	 */
 	void sort() {
 		so.sort(teams, size);
 	}
 
 }
+/**
+ * Class for selectionsort.
+ */
 class selectionsort {
-	void sort(Teams[] items, int size) {
+	/**
+	 * sorts the teams.
+	 *
+	 * @param      items  The items
+	 * @param      size   The size
+	 * time complexity is O(N^2)
+	 */
+	void sort(final Teams[] items, final int size) {
 		for (int i = 0; i < size; i++) {
 			int min = i;
 			for (int j = i + 1; j < size; j++) {
@@ -80,12 +140,23 @@ class selectionsort {
 	}
 
 }
-
+/**
+ * Solution class.
+ */
 public final class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//empty.
 	}
-	public static void main(String[] args) {
+	/**
+	 * main function.
+	 * time complexity is O(N)
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		// Teams team = new Teams();
 		Leadboard board = new Leadboard();
 		Scanner scan = new Scanner(System.in);
