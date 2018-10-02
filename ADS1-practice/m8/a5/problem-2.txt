@@ -1,0 +1,10 @@
+
+E A S Y Q U E S T I O N 
+
+
+In the above given string sequence we need to find out the ascending order by using insertion sort. 
+output of the above string is 
+
+=====================================
+A, E, E, I, N, O, Q, S, S, T, U, Y 
+======================================
