@@ -32,6 +32,9 @@ class Teams {
 		
 
 	}
+	public String getteamname() {
+		return teamname;
+	}
 
 }
 class Leadboard {
@@ -71,7 +74,11 @@ class selectionsort {
 			items[min] = items[i];
 			items[i] = temp;
 		}
+		for (int i = 0; i < items.length; i++) {
+			System.out.println(items[i].getteamname() + ",");
+		}
 	}
+
 }
 
 public final class Solution {
