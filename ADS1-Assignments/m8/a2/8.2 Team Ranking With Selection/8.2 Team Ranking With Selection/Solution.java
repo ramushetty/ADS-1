@@ -41,23 +41,23 @@ class Teams {
      *
      * @return     returns -1 or 1 or 0
      */
-    public int compareTo(final Teams items) {
+    public boolean compareTo(final Teams items) {
         if (this.wins == items.wins && this.losses == items.losses) {
             if (this.draws < items.draws) {
-                return 1;
+                return true;
             }
         }
         if (this.wins == items.wins) {
             if (this.losses > items.losses) {
-                return 1;
+                return true;
             } else {
-                return -1;
+                return false;
             }
         }
         if (this.wins < items.wins) {
-            return 1;
+            return true;
         }
-        return 0;
+        return false;
 
 
     }
@@ -134,12 +134,8 @@ class Insertionsort {
      */
     void sort(final Teams[] items, final int size) {
         for (int i = 1; i < size; i++) {
-            int min = i;
             int j = i - 1;
-            while (j >= 0) {
-                if (items[i].compareTo(items[j]) > 0) {
-                    break;
-                }
+            while (j >= 0 && items[i].compareTo(items[j])) {
                 items[j + 1] = items[j];
                 j = j - 1;
             }
