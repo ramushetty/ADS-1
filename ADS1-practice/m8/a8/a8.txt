@@ -1,0 +1,1 @@
+Insertion sort runs in linear time when all keys are equal.Means it takes less time compared to selection sort. 
