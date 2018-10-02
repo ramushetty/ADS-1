@@ -66,6 +66,7 @@ class selectionsort {
 			int min = i;
 			for (int j = i + 1; j < items.length; j++) {
 				if (items[min].compareTo(items[j]) > 0) {
+					System.out.println(items[j].getteamname());
 					min = j;
 				}
 
