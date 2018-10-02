@@ -173,7 +173,7 @@ public final class Solution {
         while (scan.hasNextLine()) {
             String[] tokens = scan.nextLine().split(",");
             board.add(new Teams(tokens[0], Integer.parseInt(
-                                    tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1])));
+tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1])));
         }
         board.sort();
     }
