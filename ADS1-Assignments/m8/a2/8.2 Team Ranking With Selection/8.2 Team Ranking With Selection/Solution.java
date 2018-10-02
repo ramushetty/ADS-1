@@ -134,12 +134,13 @@ class Insertionsort {
      */
     void sort(final Teams[] items, final int size) {
         for (int i = 1; i < size; i++) {
+            Teams temp = items[i];
             int j = i - 1;
-            while (j >= 0 && items[i].compareTo(items[j])) {
+            while (j >= 0 && items[j].compareTo(temp)) {
                 items[j + 1] = items[j];
                 j = j - 1;
             }
-            items[j + 1] = items[i];
+            items[j + 1] = temp;
             
         }
         for (int i = 0; i < size - 1; i++) {
