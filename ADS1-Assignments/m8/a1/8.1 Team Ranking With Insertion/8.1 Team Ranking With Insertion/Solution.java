@@ -79,7 +79,7 @@ class Leadboard {
 	int size;
 	selectionsort so;
 	Leadboard() {
-		teams = new Teams[10];
+		teams = new Teams[2 + 2];
 		size = 0;
 		so = new selectionsort();
 	}
