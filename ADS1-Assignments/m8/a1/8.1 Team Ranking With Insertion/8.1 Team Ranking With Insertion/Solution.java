@@ -86,11 +86,11 @@ class Leadboard {
     /**
      * selectionsort calling
      */
-    private selectionsort so;
+    private Selectionsort so;
     Leadboard() {
         teams = new Teams[2 + 2];
         size = 0;
-        so = new selectionsort();
+        so = new Selectionsort();
     }
 
     /**
@@ -105,7 +105,7 @@ class Leadboard {
         teams[size++] = item;
     }
     /**
-     * increses the size of array
+     * increses the size of array.
      */
     public void resize() {
         teams = Arrays.copyOf(teams, teams.length * 2);
@@ -121,7 +121,7 @@ class Leadboard {
 /**
  * Class for selectionsort.
  */
-class selectionsort {
+class Selectionsort {
     /**
      * sorts the teams.
      *
