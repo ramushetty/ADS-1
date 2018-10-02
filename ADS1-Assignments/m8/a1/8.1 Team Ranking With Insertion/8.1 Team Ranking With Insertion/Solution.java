@@ -84,9 +84,12 @@ class Leadboard {
      */
     private int size;
     /**
-     * selectionsort calling
+     * selectionsort calling.
      */
     private Selectionsort so;
+    /**
+     * Constructs the object.
+     */
     Leadboard() {
         teams = new Teams[2 + 2];
         size = 0;
@@ -111,7 +114,7 @@ class Leadboard {
         teams = Arrays.copyOf(teams, teams.length * 2);
     }
     /**
-     * calling sort function
+     * calling sort function.
      */
     void sort() {
         so.sort(teams, size);
