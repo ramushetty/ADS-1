@@ -137,13 +137,13 @@ class Insertionsort {
             int min = i;
             int j = i - 1;
             while (j >= 0) {
-                if (items[i].compareTo(items[j]) < 0) {
+                if (items[i].compareTo(items[j]) > 0) {
                     break;
                 }
-                items[j] = items[j + 1];
+                items[j + 1] = items[j];
                 j = j - 1;
             }
-            items[j + 1] = items[min];
+            items[j + 1] = items[i];
             
         }
         for (int i = 0; i < size - 1; i++) {
