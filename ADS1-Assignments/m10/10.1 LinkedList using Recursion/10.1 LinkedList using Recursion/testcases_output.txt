@@ -45,7 +45,4 @@ Expected Output:
 No elements to reverse.
 Your Output: 
 No elements to reverse
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.tostring(LinkedList.java:39)
-	at Solution.main(Solution.java:36)
 ----------------------------------------

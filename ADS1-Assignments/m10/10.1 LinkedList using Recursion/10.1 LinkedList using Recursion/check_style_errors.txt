@@ -1,11 +1,9 @@
 Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:17:61: Expected @throws tag for 'Exception'. [JavadocMethod]
 [ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:24:31: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:26: Line is longer than 80 characters (found 118). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:26:118: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:26: Line is longer than 80 characters (found 119). [LineLength]
 [ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:28: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] H:\ADS-1\ADS1-Assignments\m10\10.1 LinkedList using Recursion\10.1 LinkedList using Recursion\Solution.java:33: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 6 errors.

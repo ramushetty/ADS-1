@@ -14,7 +14,7 @@ public final class Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(final String[] args) throws Exception {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		LinkedList list = new LinkedList();
 		int size = 0;
@@ -23,7 +23,7 @@ public final class Solution {
 			String[] tokens = str.split(" ");
 			switch(tokens[0]) {
 				case "insertAt":
-					if (!list.insertAt(Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]))){
+					if (!list.insertAt(Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]))) {
 						size++;
 						System.out.println(list.tostring());
 					}
@@ -31,6 +31,7 @@ public final class Solution {
 				case "reverse":
 					if (size == 0) {
 						System.out.println("No elements to reverse");
+						break;
 					}
 					list.reverse();
 					System.out.println(list.tostring());
