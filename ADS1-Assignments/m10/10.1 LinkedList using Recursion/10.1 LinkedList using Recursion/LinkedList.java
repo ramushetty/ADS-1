@@ -62,6 +62,4 @@ class LinkedList {
     str += ptr.data;
     return str;
   }
-
-
 }
