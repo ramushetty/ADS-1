@@ -1,0 +1,9 @@
+Starting audit...
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:5:28: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:16:20: 'for' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:19:27: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort - updated\11.1 Cutoff Quicksort to Insertion Sort - updated\Solution.java:22:40: ',' is not followed by whitespace. [WhitespaceAfter]
+Audit done.
+Checkstyle ends with 6 errors.
