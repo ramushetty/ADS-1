@@ -21,6 +21,7 @@ class Reservation implements Comparable<Reservation>{
 	}
 
 	public int compareTo(Reservation pl2){
+		
 		if(this.totalmarks < pl2.totalmarks){
 			return 1;
 			
@@ -30,10 +31,10 @@ class Reservation implements Comparable<Reservation>{
 			return 1;
 		}else if(this.subject3tmarks > pl2.subject3tmarks){
 			return -1;
-		// }else if(this.name.compareTo(pl2.name) < 0){
-		// 	return 1;
-		// }else if(this.name.compareTo(pl2.name) > 0){
-		// 	return -1;
+		}else if(this.subject2tmarks < subject2tmarks){
+			return 1;
+		}else if(this.subject1tmarks < subject1tmarks){
+			return -1;
 		}
 		return 0;
 	}
