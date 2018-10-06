@@ -110,12 +110,12 @@ public class Solution {
 		int bc = scan.nextInt();
 		int sc = scan.nextInt();
 		int st = scan.nextInt();
-		for (int i = 0; i <= nostudents; i++) {
+		for (int i = 0; i < nostudents; i++) {
 			String str = scan.nextLine();
 			// System.out.println(str + "==========");
 			String[] tokens = scan.nextLine().split(",");
-			System.out.println("=========================================");
-			System.out.println(tokens[0]+  tokens[1] + " "+ tokens[2] + " " +tokens[2]  + " " + tokens[3] + " " + tokens[4] + " " + tokens[5]);
+			// System.out.println("=========================================");
+			// System.out.println(tokens[0]+  tokens[1] + " "+ tokens[2] + " " +tokens[2]  + " " + tokens[3] + " " + tokens[4] + " " + tokens[5]);
 			int s1 = Integer.parseInt(tokens[2]);
 
 			int s2 = Integer.parseInt(tokens[3]);
