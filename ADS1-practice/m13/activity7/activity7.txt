@@ -1,0 +1,1 @@
+yes, because array is in ascending order , which nothing but root node will be smaller than all of its child nodes, so we can say that it is a min oriented heap.
