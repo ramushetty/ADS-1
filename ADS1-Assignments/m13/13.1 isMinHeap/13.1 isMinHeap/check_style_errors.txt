@@ -1,0 +1,18 @@
+Starting audit...
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:2:7: Name 'minpq' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:3:27: Parameter arr should be final. [FinalParameters]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:6: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:6:101: ')' is preceded with whitespace. [ParenPad]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:34: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:39: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:41: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:42:67: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:44:58: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:44:78: '(' is preceded with whitespace. [MethodParamPad]
+Audit done.
+Checkstyle ends with 15 errors.
