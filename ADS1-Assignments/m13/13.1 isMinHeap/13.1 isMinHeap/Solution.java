@@ -50,6 +50,19 @@ public final class Solution {
 				}
 				break;
 			case "Integer":
+				count = Integer.parseInt(scan.nextLine());
+				for (int i = 0; i < count; i++) {
+					String[] tokens = scan.nextLine().split(",");
+					Integer[] st = new Integer[tokens.length + 1];
+					int k =1;
+					for (int j = 0; j < tokens.length; j++) {
+						st[k++] = Integer.parseInt(tokens[j]);
+					}
+					// System.out.println(Arrays.toString(st));
+					minpq<Integer> min= new minpq<Integer> ();
+					min.check(st);
+				}
+
 				break;
 			case "Double":
 				break;
