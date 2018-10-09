@@ -35,12 +35,14 @@ Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:77:58: '=' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:77:78: '(' is preceded with whitespace. [MethodParamPad]
 [ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:84: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:85: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:86:48: '=' is not followed by whitespace. [WhitespaceAround]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:87: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:88: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:90: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:91:57: '=' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:91:76: '(' is preceded with whitespace. [MethodParamPad]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:88: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:89:56: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:90: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:91: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:93: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:94: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:94:65: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:94:84: '(' is preceded with whitespace. [MethodParamPad]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 43 errors.
+Checkstyle ends with 45 errors.

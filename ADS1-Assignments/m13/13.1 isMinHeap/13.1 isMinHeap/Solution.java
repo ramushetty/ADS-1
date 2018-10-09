@@ -82,16 +82,28 @@ public final class Solution {
 				count = Integer.parseInt(scan.nextLine());
 				for (int i = 0; i < count; i++) {
 					String[] tokens = scan.nextLine().split(",");
-					Float[] st = new Float[tokens.length + 1];
-					int k =1;
-					for (int j = 0; j < tokens.length; j++) {
-						st[k++] = Float.parseFloat(tokens[j]);
+					if (tokens[0].equals("")) {
+						System.out.println("false");
+					} else {
+						Float[] st = new Float[tokens.length + 1];
+						int k =1;
+						for (int j = 0; j < tokens.length; j++) {
+							st[k++] = Float.parseFloat(tokens[j]);
+						}
+						// System.out.println(Arrays.toString(st));
+						minpq<Float> min= new minpq<Float> ();
+						min.check(st);
+
 					}
-					// System.out.println(Arrays.toString(st));
-					minpq<Float> min= new minpq<Float> ();
-					min.check(st);
+
+					
 				}
 				break;
 		}
 	}
 }
+// if tokens[0].equals("") {
+// 	System.out.println("false");
+// } else {
+
+// }
