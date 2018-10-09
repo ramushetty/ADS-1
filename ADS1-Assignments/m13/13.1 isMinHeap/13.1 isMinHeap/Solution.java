@@ -65,8 +65,32 @@ public final class Solution {
 
 				break;
 			case "Double":
+				count = Integer.parseInt(scan.nextLine());
+				for (int i = 0; i < count; i++) {
+					String[] tokens = scan.nextLine().split(",");
+					Double[] st = new Double[tokens.length + 1];
+					int k =1;
+					for (int j = 0; j < tokens.length; j++) {
+						st[k++] = Double.parseDouble(tokens[j]);
+					}
+					// System.out.println(Arrays.toString(st));
+					minpq<Double> min= new minpq<Double> ();
+					min.check(st);
+				}
 				break;
 			case "Float":
+				count = Integer.parseInt(scan.nextLine());
+				for (int i = 0; i < count; i++) {
+					String[] tokens = scan.nextLine().split(",");
+					Float[] st = new Float[tokens.length + 1];
+					int k =1;
+					for (int j = 0; j < tokens.length; j++) {
+						st[k++] = Float.parseFloat(tokens[j]);
+					}
+					// System.out.println(Arrays.toString(st));
+					minpq<Float> min= new minpq<Float> ();
+					min.check(st);
+				}
 				break;
 		}
 	}
