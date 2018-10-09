@@ -1,20 +1,21 @@
 import java.util.Scanner;
 /**
- * Class for minpq.
+ * Class for Minpq.
  *
  * @param      <P>   { generics type }
  */
-class minpq<P extends Comparable<P>> {
+class Minpq<P extends Comparable<P>> {
     /**
-     * check function 
+     * check function.
      * takes time complexity of O(N)
      *
      * @param      arr   The arr
      */
-    public void check(P[] arr) {
+    public void check(final P[] arr) {
         int k = 1;
         for (int i = 1; i < arr.length / 2; i++) {
-            if (arr[i].compareTo(arr[2 * i]) > 0 || arr[i].compareTo(arr[2 * i + 1]) > 0 ) {
+            if (arr[i].compareTo(
+    arr[2 * i]) > 0 || arr[i].compareTo(arr[2 * i + 1]) > 0) {
                 System.out.println("false");
                 return;
             }
@@ -55,8 +56,7 @@ public final class Solution {
                 for (int j = 0; j < tokens.length; j++) {
                     st[k++] = tokens[j];
                 }
-                // System.out.println(Arrays.toString(st));
-                minpq<String> min = new minpq<String> ();
+                Minpq<String> min = new Minpq<String>();
                 min.check(st);
 
             }
@@ -70,8 +70,7 @@ public final class Solution {
                 for (int j = 0; j < tokens.length; j++) {
                     st[k++] = Integer.parseInt(tokens[j]);
                 }
-                // System.out.println(Arrays.toString(st));
-                minpq<Integer> min = new minpq<Integer> ();
+                Minpq<Integer> min = new Minpq<Integer>();
                 min.check(st);
             }
 
@@ -85,8 +84,7 @@ public final class Solution {
                 for (int j = 0; j < tokens.length; j++) {
                     st[k++] = Double.parseDouble(tokens[j]);
                 }
-                // System.out.println(Arrays.toString(st));
-                minpq<Double> min = new minpq<Double> ();
+                Minpq<Double> min = new Minpq<Double>();
                 min.check(st);
             }
             break;
@@ -102,8 +100,7 @@ public final class Solution {
                     for (int j = 0; j < tokens.length; j++) {
                         st[k++] = Float.parseFloat(tokens[j]);
                     }
-                    // System.out.println(Arrays.toString(st));
-                    minpq<Float> min = new minpq<Float> ();
+                    Minpq<Float> min = new Minpq<Float>();
                     min.check(st);
 
                 }

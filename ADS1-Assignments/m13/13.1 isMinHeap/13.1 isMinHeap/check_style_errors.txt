@@ -1,15 +1,5 @@
 Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:7:7: Name 'minpq' must match pattern '^[A-Z][a-zA-Z0-9]*$'. [TypeName]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:8: First sentence should end with a period. [JavadocStyle]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:14:23: Parameter arr should be final. [FinalParameters]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:17: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:17:89: ')' is preceded with whitespace. [ParenPad]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:47: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:59:55: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:74:57: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:89:55: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:106:57: '(' is preceded with whitespace. [MethodParamPad]
+[ERROR] H:\ADS-1\ADS1-Assignments\m13\13.1 isMinHeap\13.1 isMinHeap\Solution.java:48: switch without "default" clause. [MissingSwitchDefault]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 2 errors.
