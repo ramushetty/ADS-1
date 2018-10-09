@@ -111,6 +111,5 @@ public final class Solution {
         default:
             break;
         }
-        
     }
 }
