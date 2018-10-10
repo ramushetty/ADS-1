@@ -84,6 +84,7 @@ import java.util.Scanner;
 import java.util.*;
 class Solution {
 	Students[] students;
+	Students[] ressort;
 	private int size, numberofstudents, numberofvacancies, numberofunreservedc, numberofbcstudents, numberofscstudents, numberofststudents;
 	Solution(int numberofstudents, int numberofvacancies, int numberofunreservedc, int numberofbcstudents, int numberofscstudents, int numberststudents) {
 		this.numberofstudents = numberofstudents;
@@ -98,6 +99,9 @@ class Solution {
 	public int getsize() {
 		return size;
 	}
+	// public int getrsize() {
+	// 	return ressize;
+	// }
 	public void add(Students s1) {
 		students[size++] = s1;
 	}
@@ -118,36 +122,36 @@ class Solution {
 
 		}
 		// System.out.println(siz);
-		for (int p = 0; p < siz; p++) {
-			System.out.println(s1[p]);
-		}
+		// for (int p = 0; p < siz; p++) {
+		// 	System.out.println(s1[p]);
+		// }
 		
 
 	}
 	public void reservation() {
 		// Students[] res = (Students)students.clone();
-		Students[] res = new Students[size];
+		ressort = new Students[size];
 		int ressize = 0;
 		// for (int i = 0; i < size; i++) {
 		// 	res[i] = students[i];
 		// }
-		for (int j = 0 ; j < res.length; j++) {
+		for (int j = 0 ; j < ressort.length; j++) {
 			if (numberofunreservedc > 0) {
-				res[ressize++] = students[j];
+				ressort[ressize++] = students[j];
 				numberofunreservedc--;
 			} else {
 				String c = students[j].getcategory();
 				if (numberofbcstudents > 0 || numberofscstudents > 0 || numberofststudents >0) {
 					if (c.equals("BC") && numberofbcstudents > 0) {
-						res[ressize++] = students[j];
+						ressort[ressize++] = students[j];
 						numberofbcstudents--;
 					}
 					if (c.equals("SC") && numberofscstudents > 0) {
-						res[ressize++] = students[j];
+						ressort[ressize++] = students[j];
 						numberofscstudents--;
 					}
 					if (c.equals("ST") && numberofststudents > 0) {
-						res[ressize++] = students[j];
+						ressort[ressize++] = students[j];
 						 numberofststudents--;
 					}
 				} else {
@@ -156,9 +160,10 @@ class Solution {
 			}
 
 		}
-		for (int k = 0; k < ressize; k++) {
-			System.out.println(res[k]);
-		}
+		// for (int k = 0; k < ; k++) {
+		// 	System.out.println(res[k]);
+		// }
+		// insertionsort()
 
 	}
 	// public ressort() {
@@ -210,6 +215,7 @@ class Solution {
 		stu.insertionsort(stu.students, stu.getsize());
 		System.out.println();
 		stu.reservation();
+		stu.insertionsort(stu.ressort, numberofvacancies);
 
 	}
 
