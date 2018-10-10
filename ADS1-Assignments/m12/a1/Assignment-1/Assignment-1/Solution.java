@@ -117,7 +117,7 @@ class Solution {
 			}
 
 		}
-		System.out.println(siz);
+		// System.out.println(siz);
 		for (int p = 0; p < siz; p++) {
 			System.out.println(s1[p]);
 		}

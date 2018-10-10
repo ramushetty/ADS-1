@@ -73,7 +73,7 @@ Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:192:33: Parameter args should be final. [FinalParameters]
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:194: Line has trailing spaces. [RegexpSingleline]
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:201: Line is longer than 80 characters (found 162). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:203:22: 'while' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:203:22: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:206: Line is longer than 80 characters (found 195). [LineLength]
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:206:121: '3' is a magic number. [MagicNumber]
 [ERROR] H:\ADS-1\ADS1-Assignments\m12\a1\Assignment-1\Assignment-1\Solution.java:206:150: '4' is a magic number. [MagicNumber]
