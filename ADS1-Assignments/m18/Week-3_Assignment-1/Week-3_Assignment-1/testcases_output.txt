@@ -131,21 +131,6 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
-
-ICRA 5.84
-Lakshmi Machine 4.7
-Merck Ltd 3.83
-Bajaj Finserv 3.64
-TTK Prestige 3.15
-
-Honeywell Auto -1.08
-Eicher Motors -1.6
-Sanofi India 0.21
-Tasty Bite Eat 0.23
-WABCO India 0.33
-
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:14)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -280,21 +265,6 @@ Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
-
-Larsen & Toubro 5.11
-Jubilant Food 5.08
-Endurance Technologies Ltd. 4.1
-Nalwa Sons Invst 4.06
-APL Apollo Tube 2.18
-
-Ceat -1.23
-NIIT Tech 0.21
-Fine Organic Industries Ltd. 0.29
-Vinati Organics 1.03
-Chola Inv Fin 1.47
-
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:14)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -434,21 +404,6 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
-
-ICRA 5.84
-Lakshmi Machine 4.7
-Merck Ltd 3.83
-Bajaj Finserv 3.64
-TTK Prestige 3.15
-
-Honeywell Auto -1.08
-Eicher Motors -1.6
-Sanofi India 0.21
-Tasty Bite Eat 0.23
-WABCO India 0.33
-
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:14)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -588,21 +543,6 @@ Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
-
-Larsen & Toubro 5.11
-Jubilant Food 5.08
-Endurance Technologies Ltd. 4.1
-Nalwa Sons Invst 4.06
-APL Apollo Tube 2.18
-
-Ceat -1.23
-NIIT Tech 0.21
-Fine Organic Industries Ltd. 0.29
-Vinati Organics 1.03
-Chola Inv Fin 1.47
-
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:14)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -757,19 +697,4 @@ Abbott India 0.46
 MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
-
-ICRA 5.84
-Lakshmi Machine 4.7
-Merck Ltd 3.83
-Bajaj Finserv 3.64
-TTK Prestige 3.15
-
-Honeywell Auto -1.08
-Eicher Motors -1.6
-Sanofi India 0.21
-Tasty Bite Eat 0.23
-WABCO India 0.33
-
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:14)
 ----------------------------------------
