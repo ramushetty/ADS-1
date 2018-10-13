@@ -21,7 +21,7 @@ public class Solution {
 
                 for(Stocks str: stocks){
                     if (dec  < 5) {
-                        System.out.println(str.getcompanyname() +" " + Double.parseDouble(str.getvalue()) + " ==============");
+                        System.out.println(str.getcompanyname() +" " + Double.parseDouble(str.getvalue()));
                         dec++;
                     }
                 }
@@ -31,7 +31,7 @@ public class Solution {
 
                 for(Stocks str: stocks){
                     if (dec  < 5) {
-                        System.out.println(str.getcompanyname() +" " + Double.parseDouble(str.getvalue()) + " ==============");
+                        System.out.println(str.getcompanyname() +" " + Double.parseDouble(str.getvalue()));
                         dec++;
                     }
                 }
