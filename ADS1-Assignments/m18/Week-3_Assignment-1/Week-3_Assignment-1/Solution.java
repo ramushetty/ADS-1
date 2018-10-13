@@ -9,7 +9,7 @@ public class Solution {
         List<Stocks> stocks = new ArrayList<Stocks>();
         int count = Integer.parseInt(scan.nextLine());
         int  counter = 0;
-        for (int p = 1; p < count * 6 ; p++) {
+        for (int p = 1; p < count * 6 + 1; p++) {
             String[] tokens = scan.nextLine().split(",");
             stocks.add(new Stocks(tokens[0], tokens[1]));
             // stocks.sort( Comparator.comparing( String::toString ).reversed() ); 
