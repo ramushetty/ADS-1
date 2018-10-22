@@ -1,0 +1,1 @@
+B and D does not follow the three properties of binary search tree.
