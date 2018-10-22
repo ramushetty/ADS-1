@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS-1\ADS1-Assignments\m16\16.1 BST\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] H:\ADS-1\ADS1-Assignments\m16\16.1 BST\Solution.java:22: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m16\16.1 BST\Solution.java:23:31: 'switch' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 3 errors.
