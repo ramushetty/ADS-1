@@ -5,12 +5,12 @@ class Book implements Comparable<Book> {
     
     private String author;
     
-    private String price;
+    private float price;
     
-    Book(final String name, final String a, final String p) {
-        this.book = name;
-        this.author = a;
-        this.price = p;
+    Book(final String bookk, final String authorr, final float pricee) {
+        this.book = bookk;
+        this.author = authorr;
+        this.price = pricee;
     }
     
     public String getbook() {
@@ -19,7 +19,7 @@ class Book implements Comparable<Book> {
     public String getauthor() {
         return this.author;
     }
-    public String getprice() {
+    public float getprice() {
         return this.price;
     }
     public int compareTo(final Book that) {

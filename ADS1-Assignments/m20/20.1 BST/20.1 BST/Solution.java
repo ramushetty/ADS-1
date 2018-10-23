@@ -8,7 +8,7 @@ public final class Solution {
      * empty constructor.
      */
     private Solution() {
-        //empty Constructor.
+        //empty.
     }
     /**
      * {main Program}.
@@ -17,18 +17,18 @@ public final class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        BST<Book, String> b = new BST<>();
-        while (scan.hasNextLine()) {
+        BST<Book, Integer> b = new BST<Book, Integer>();
+        while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
                 case "put":
                     Book books = new Book(tokens[1], tokens[2],
-                        tokens[2 + 1]);
-                    b.put(books, tokens[2 + 2]);
+                        Float.parseFloat(tokens[2 + 1]));
+                    b.put(books, Integer.parseInt(tokens[2 + 2]));
                 break;
                 case "get":
                     books = new Book(tokens[1], tokens[2],
-                        tokens[2 + 1]);
+                        Float.parseFloat(tokens[2 + 1]));
                     System.out.println(b.get(books));
                 break;
                 case "max":
@@ -43,17 +43,17 @@ public final class Solution {
                 break;
                 case "floor":
                     books = new Book(tokens[1], tokens[2],
-                        tokens[2 + 1]);
+                        Float.parseFloat(tokens[2 + 1]));
                     System.out.println(b.floor(books));
                 break;
                 case "ceiling":
                     books = new Book(tokens[1], tokens[2],
-                        tokens[2 + 1]);
+                        Float.parseFloat(tokens[2 + 1]));
                     System.out.println(b.ceiling(books));
                 break;
                 case "delete":
                     books = new Book(tokens[1], tokens[2],
-                        tokens[2 + 1]);
+                        Float.parseFloat(tokens[2 + 1]));
                     b.delete(books);
                 break;
                 case "deleteMin":
