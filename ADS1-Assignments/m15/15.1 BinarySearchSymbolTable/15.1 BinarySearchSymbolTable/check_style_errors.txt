@@ -1,7 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS-1\ADS1-Assignments\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:35:8: Unused @param tag for 'capacity'. [JavadocMethod]
-[ERROR] H:\ADS-1\ADS1-Assignments\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:38:20: Expected @param tag for 'cap'. [JavadocMethod]
-[ERROR] H:\ADS-1\ADS1-Assignments\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:45:8: Unused @param tag for 'capacity'. [JavadocMethod]
-[ERROR] H:\ADS-1\ADS1-Assignments\m15\15.1 BinarySearchSymbolTable\15.1 BinarySearchSymbolTable\Solution.java:47:35: Expected @param tag for 'cap2'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 4 errors.

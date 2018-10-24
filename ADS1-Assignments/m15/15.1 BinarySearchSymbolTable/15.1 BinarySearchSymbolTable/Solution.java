@@ -35,19 +35,19 @@ class BSST<Key extends Comparable<Key>, Value> {
      * @param capacity the maximum capacity
      * Time complexity of this method is O(1).
      */
-    BSST(final int cap) {
-        keys = (Key[]) new Comparable[cap];
-        values = (Value[]) new Object[cap];
+    BSST(final int capacity) {
+        keys = (Key[]) new Comparable[capacity];
+        values = (Value[]) new Object[capacity];
     }
     /**
      * {resize the underlying arrays}.
      * Time complexity of this method is O(N).
      * @param      capacity  The capacity
      */
-    private void resize(final int cap2) {
-        assert cap2 >= n;
-        Key[]   tempk = (Key[])   new Comparable[cap2];
-        Value[] tempv = (Value[]) new Object[cap2];
+    private void resize(final int capacity) {
+        assert capacity >= n;
+        Key[]   tempk = (Key[])   new Comparable[capacity];
+        Value[] tempv = (Value[]) new Object[capacity];
         for (int i = 0; i < n; i++) {
             tempk[i] = keys[i];
             tempv[i] = values[i];
