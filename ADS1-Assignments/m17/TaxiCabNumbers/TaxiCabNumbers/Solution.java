@@ -15,7 +15,13 @@ class Taxicab implements Comparable<Taxicab> {
      * {second  num}.
      */
     private int num2;
- 
+    /**
+     * 
+     * Constructs the object.
+     *
+     * @param      num11  The number 11
+     * @param      num22  The number 22
+     */
     Taxicab(final int num11, final int num22) {
         this.num1 = num11;
         this.num2 = num22;
@@ -25,27 +31,29 @@ class Taxicab implements Comparable<Taxicab> {
     public int getnum1() {
         return this.num1;
     }
-   
-    // public void setNum1(final int a) {
-    //     this.num1 = a;
-    // }
-   
+    /**
+     * get number 2.
+     *
+     * @return    returns number two.
+     */
     public int getnum2() {
         return this.num2;
     }
-   
-    // public void setNum2(final int b) {
-    //     this.num2 = b;
-    // }
-    
+    /**
+     * Gets the sum.
+     *
+     * @return     The sum.
+     */
     public int getSum() {
         return this.sum;
     }
-   
-    // public void setSum(final int s) {
-    //     this.sum = s;
-    // }
-   
+    /**
+     * comparing . 
+     *
+     * @param      that  The that
+     *
+     * @return     return int value
+     */
     public int compareTo(final Taxicab that) {
         if (this.getSum() > that.getSum()) {
             return 1;
@@ -55,7 +63,11 @@ class Taxicab implements Comparable<Taxicab> {
         }
         return 0;
     }
-    
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
         return Integer.toString(sum);
     }
