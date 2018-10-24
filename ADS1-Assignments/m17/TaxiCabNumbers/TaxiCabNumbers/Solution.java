@@ -28,7 +28,7 @@ class Taxicab implements Comparable<Taxicab> {
         this.sum = (num1 * num1 * num1) + (num2 * num2 * num2);
     }
     /**
-     * returns number1
+     * returns number1.
      *
      * @return     number1
      */
