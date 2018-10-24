@@ -27,7 +27,11 @@ class Taxicab implements Comparable<Taxicab> {
         this.num2 = num22;
         this.sum = (num1 * num1 * num1) + (num2 * num2 * num2);
     }
-
+    /**
+     * returns number1
+     *
+     * @return     number1
+     */
     public int getnum1() {
         return this.num1;
     }
@@ -84,7 +88,7 @@ public final class Solution {
     }
     /**
      * main function.
-     *
+     *time complexity O(1)
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
