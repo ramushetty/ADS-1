@@ -30,7 +30,7 @@ S 0
 X 7
 null
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Y
 O 10
@@ -48,11 +48,21 @@ O
 false
 null
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
-	at BSST.resize(Solution.java:52)
-	at BSST.delete(Solution.java:212)
-	at BSST.deleteMin(Solution.java:226)
-	at Solution.main(Solution.java:448)
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+null
+Y
+null
+O
+1
+false
+null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
 Expected Output: 

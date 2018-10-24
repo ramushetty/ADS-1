@@ -10,7 +10,7 @@ class BSST<Key extends Comparable<Key>, Value> {
     /**
      * {Initial Capacity}.
      */
-    private static final int INIT_CAPACITY = 5;
+    private static final int INIT_CAPACITY = 2;
     /**
      * {Key array}.
      */
