@@ -16,7 +16,7 @@ class Taxicab implements Comparable<Taxicab> {
      */
     private int num2;
     /**
-     * 
+     *
      * Constructs the object.
      *
      * @param      num11  The number 11
@@ -27,7 +27,7 @@ class Taxicab implements Comparable<Taxicab> {
         this.num2 = num22;
         this.sum = (num1 * num1 * num1) + (num2 * num2 * num2);
     }
-   
+
     public int getnum1() {
         return this.num1;
     }
@@ -48,7 +48,7 @@ class Taxicab implements Comparable<Taxicab> {
         return this.sum;
     }
     /**
-     * comparing . 
+     * comparing .
      *
      * @param      that  The that
      *
