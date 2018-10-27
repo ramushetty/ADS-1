@@ -23,8 +23,9 @@ Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:29:33: Parameter args should be final. [FinalParameters]
 [ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:38:56: ',' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:38:66: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:49: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:51: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:54: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:50:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:52: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:55: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] H:\ADS-1\ADS1-Assignments\m24\1\1\Solution.java:57: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 27 errors.
+Checkstyle ends with 28 errors.

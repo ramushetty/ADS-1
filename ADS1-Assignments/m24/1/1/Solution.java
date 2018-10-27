@@ -43,17 +43,22 @@ public class Solution {
 			String[] queries = scan.nextLine().split(" ");
 			int idd = Integer.parseInt(queries[1]);
 			int pri = Integer.parseInt(queries[2]);
+			int p = 0;
+
 			for (int i = 0; i < count; i++) {
 				if (student.get(i).getid() == idd) {
+					p =1;
 					if (pri == 1) {
 						System.out.println(student.get(i).getname());
+
 					} else {
 						System.out.println(student.get(i).getmarks());
 					}
-				} else {
-					System.out.println("Student doesn't exists...");
-				}
-				// System.out.println(student.get(i));
+				} 
+			}
+			if (p == 0) {
+				System.out.println("Student doesn't exists...");
+
 			}
 			qu--;
 		}
