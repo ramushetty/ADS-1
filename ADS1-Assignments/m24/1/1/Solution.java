@@ -39,6 +39,7 @@ public class Solution {
 			c--;
 		}
 		int qu = Integer.parseInt(scan.nextLine());
+		// Collections.sort(student, getmarks()).reversed();
 		while (qu > 0) {
 			String[] queries = scan.nextLine().split(" ");
 			int idd = Integer.parseInt(queries[1]);
@@ -48,7 +49,11 @@ public class Solution {
 			for (int i = 0; i < count; i++) {
 				if (student.get(i).getid() == idd) {
 					p =1;
+
 					if (pri == 1) {
+						// for (int j = 0; j < count; j++) {
+						// 	if ()
+						// }
 						System.out.println(student.get(i).getname());
 
 					} else {
