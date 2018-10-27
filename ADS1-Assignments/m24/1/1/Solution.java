@@ -11,6 +11,16 @@ class Studentdata {
 		this.marks = markss;
 
 	}
+	public int getid() {
+		return id;
+	}
+	public String getname() {
+		return name;
+	}
+	public double getmarks() {
+		return marks;
+	}
+
 }
 public class Solution {
 	private Solution() {
@@ -34,14 +44,14 @@ public class Solution {
 			int idd = Integer.parseInt(queries[1]);
 			int pri = Integer.parseInt(queries[2]);
 			for (int i = 0; i < count; i++) {
-				// if (student.get(i).id.contains(idd)) {
-				// 	if (pri == 1) {
-				// 		System.out.println(student.get(i).name);
-				// 	} else {
-				// 		System.out.println(student.get(i).marks);
-				// 	}
-				// }
-				System.out.println(student.get(i));
+				if (student.get(i).getid() == idd) {
+					if (pri == 1) {
+						System.out.println(student.get(i).getname());
+					} else {
+						System.out.println(student.get(i).getmarks());
+					}
+				}
+				// System.out.println(student.get(i));
 			}
 			qu--;
 		}
