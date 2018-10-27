@@ -50,6 +50,8 @@ public class Solution {
 					} else {
 						System.out.println(student.get(i).getmarks());
 					}
+				} else {
+					System.out.println("Student doesn't exists...");
 				}
 				// System.out.println(student.get(i));
 			}
