@@ -47,7 +47,6 @@ public final class Solution {
             if (minpq.size() > maxpq.size()) {
                 med = minpq.min();
                 System.out.println(med);
-                System.out.println(med);
 
             }
         }
