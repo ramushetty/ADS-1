@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] H:\ADS-1\ADS1-Assignments\m14\14.2 student reservation system\14.2 student reservation system\Solution.java:52:23: 'markss2' hides a field. [HiddenField]
-[ERROR] H:\ADS-1\ADS1-Assignments\m14\14.2 student reservation system\14.2 student reservation system\Solution.java:52:42: 'marks3' hides a field. [HiddenField]
 Audit done.
-Checkstyle ends with 2 errors.
