@@ -30,7 +30,7 @@ public final class Solution {
                 break;
             case "delete":
                 hashst.delete(tokens[1]);
-                    System.out.println("ram");
+                    // System.out.println("ram");
                 
                 break;
             case "display":
@@ -38,7 +38,7 @@ public final class Solution {
                     hashst.display();
                 } catch (Exception e) {
                     System.out.println("{}");
-                    System.out.println("ram");
+                    // System.out.println("ram");
                 }
                 break;
             default:
