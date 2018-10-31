@@ -81,7 +81,7 @@ class Mergesort {
     }
     /**
      * insertionsort.
-     * 
+     *
      * TC O(N^2/2).
      * @param      arr     {array}.
      * @param      lo    The lower value
