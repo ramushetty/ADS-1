@@ -74,7 +74,7 @@ class Student implements Comparable<Student> {
     }
     /**
      * Sets the .
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @param      allot  The allot
      */
     public void setAllocation(final boolean allot) {
@@ -88,116 +88,61 @@ class Student implements Comparable<Student> {
     public String getStudentName() {
         return this.studentName;
     }
-    // /**
-    //  * Sets the student name.
-    //  * Time complexity of this method is O(1).
-    //  * @param      student1  The student1
-    //  */
-    // public void setStudentName(final String student1) {
-    //     this.studentName = student1;
-    // }
+   
     /**
      * Gets the markss1.
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @return     The markss1.
      */
     public int getM1() {
         return this.marks1;
     }
-    // /**
-    //  * Sets the markss1.
-    //  * Time complexity of this method is O(1).
-    //  * @param      mark1  The mark 1
-    //  */
-    // public void setM1(final int mark1) {
-    //     this.marks1 = mark1;
-    // }
     /**
      * Gets the marks2.
-     * Time complexity of this method is O(1).
+     * Time complexity  O(1).
      * @return     The m 2.
      */
     public int getM2() {
         return this.marks2;
     }
-    // /**
-    //  * Sets the marks2.
-    //  * Time complexity of this method is O(1).
-    //  * @param      mark2  The mark 2
-    //  */
-    // public void setM2(final int mark2) {
-    //     this.marks2 = mark2;
-    // }
     /**
      * Gets the marks3.
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @return     The m 3.
      */
     public int getM3() {
         return this.marks3;
     }
-    // /**
-    //  * Sets the marks3.
-    //  * Time complexity of this method is O(1).
-    //  * @param      mark3  The mark 3
-    //  */
-    // public void setM3(final int mark3) {
-    //     this.marks3 = mark3;
-    // }
     /**
      * Gets the dob.
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @return     The dob.
      */
     public Date getDOB() {
         return this.dob;
     }
-    // /**
-    //  * Sets the dob.
-    //  * Time complexity of this method is O(1).
-    //  * @param      d     {Date object}
-    //  */
-    // public void setDOB(final Date d) {
-    //     this.dob = d;
-    // }
     /**
      * Gets the reservation.
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @return     The reservation.
      */
     public String getReservation() {
         return this.category;
     }
-    // /**
-    //  * Sets the category.
-    //  * Time complexity of this method is O(1).
-    //  * @param      c     {String}
-    //  */
-    // public void setCategory(final String c) {
-    //     this.category = c;
-    // }
     /**
      * Gets the total.
-     * Time complexity of this method is O(1).
+     * Time complexity O(1).
      * @return     The total.
      */
     public int getTotal() {
         return this.totalmarks;
     }
-    // /**
-    //  * Sets the total.
-    //  * Time complexity of this method is O(1).
-    //  * @param      tm    The time
-    //  */
-    // public void setTotal(final int tm) {
-    //     this.totalmarks = tm;
-    // }
     /**
-     * {Method to compare two objects}
-     * Time complexity of this method is O(1).
+     * compare.
+     * Time complexity of  O(1).
      * @param      that  The that
      *
-     * @return     {Integer}
+     * @return     {Int}
      */
     public int compareTo(final Student that) {
         if (this.getTotal() > that.getTotal()) {
@@ -229,11 +174,11 @@ class Student implements Comparable<Student> {
      * @return     String representation of the object.
      */
     public String toString() {
-        StringBuffer sb = new StringBuffer();
-        sb.append(this.getStudentName() + ",");
-        sb.append(this.getTotal() + ",");
-        sb.append(this.getReservation());
-        return sb.toString();
+        StringBuffer stringbuff = new StringBuffer();
+        stringbuff.append(this.getStudentName() + ",");
+        stringbuff.append(this.getTotal() + ",");
+        stringbuff.append(this.getReservation());
+        return stringbuff.toString();
     }
 }
 /**
@@ -244,11 +189,11 @@ final class Heap {
      * Constructs the object.
      */
     private Heap() {
-        //Unused Constructor.
+        //emptyConstructor.
     }
     /**
-     * {Method to sink}.
-     * Time complexity of this method is O(log(N)).
+     * sink method.
+     * Time complexity  O(log(N)).
      * @param      a    {Comparable array}
      * @param      k     {Integer}
      * @param      n     {Integer}
