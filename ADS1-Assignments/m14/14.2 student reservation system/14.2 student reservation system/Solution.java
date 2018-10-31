@@ -49,7 +49,8 @@ class Student implements Comparable<Student> {
      * @param      categoryy   The category
      */
     Student(final String name, final String dob1, final int markss1,
-            final int marks2, final int marks3, final int totalmarkss, final String categoryy) {
+            final int marks2, final int marks3,
+            final int totalmarkss, final String categoryy) {
         this.studentName = name;
         SimpleDateFormat sd = new SimpleDateFormat("dd-MM-yyyy");
         try {
