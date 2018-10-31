@@ -36,6 +36,7 @@ public final class Solution {
                     hashst.display();
                 } catch (Exception e) {
                     System.out.println("{}");
+                    System.out.println("ram");
                 }
                 break;
             default:
