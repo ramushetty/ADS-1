@@ -30,6 +30,8 @@ public final class Solution {
                 break;
             case "delete":
                 hashst.delete(tokens[1]);
+                    System.out.println("ram");
+                
                 break;
             case "display":
                 try {
