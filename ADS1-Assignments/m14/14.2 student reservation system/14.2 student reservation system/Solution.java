@@ -20,7 +20,7 @@ class Student implements Comparable<Student> {
     /**
      * subject2 marks.
      */
-    private int marks2;
+    private int markss2;
     /**
      * subject3 marks.
      */
@@ -43,13 +43,13 @@ class Student implements Comparable<Student> {
      * @param      name  The name
      * @param      dob1  The dob1
      * @param      markss1    The markss1
-     * @param      marks2    The marks2
+     * @param      markss2    The markss2
      * @param      marks3    The marks3
      * @param      totalmarkss     {Total marks}
      * @param      categoryy   The category
      */
     Student(final String name, final String dob1, final int markss1,
-            final int marks2, final int marks3,
+            final int markss2, final int marks3,
             final int totalmarkss, final String categoryy) {
         this.studentName = name;
         SimpleDateFormat sd = new SimpleDateFormat("dd-MM-yyyy");
@@ -59,7 +59,7 @@ class Student implements Comparable<Student> {
             ex.printStackTrace();
         }
         this.marks1 = markss1;
-        this.marks2 = marks2;
+        this.markss2 = markss2;
         this.marks3 = marks3;
         this.totalmarks = totalmarkss;
         this.category = categoryy;
@@ -99,12 +99,12 @@ class Student implements Comparable<Student> {
         return this.marks1;
     }
     /**
-     * Gets the marks2.
+     * Gets the markss2.
      * Time complexity  O(1).
      * @return     The m 2.
      */
     public int getM2() {
-        return this.marks2;
+        return this.markss2;
     }
     /**
      * Gets the marks3.
