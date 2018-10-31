@@ -65,7 +65,7 @@ class Mergesort {
                 aux[i] = array[i];
             }
             System.out.println(
-                "Array is already sorted. So, skipped the call to mergesort...");
+                "Array is already sorted. So, skipped the call to merge...");
             return;
         }
         mergesort(array, aux, lo, mid, hi);
