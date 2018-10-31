@@ -39,7 +39,6 @@ public final class Solution {
                 }
             } else {
                 System.out.print("No");
-                System.out.print("No");
                 
                 return;
             }

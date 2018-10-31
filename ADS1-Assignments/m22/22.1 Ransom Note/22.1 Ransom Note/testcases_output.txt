@@ -11,11 +11,11 @@ No
 Your Output: 
 No
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 No
 Your Output: 
-NoNo
+No
 ----------------------------------------
 ########## Testcase 3: Passed ##########
 Expected Output: 
