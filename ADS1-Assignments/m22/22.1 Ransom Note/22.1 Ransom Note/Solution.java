@@ -39,7 +39,7 @@ public final class Solution {
                 }
             } else {
                 System.out.print("No");
-                
+
                 return;
             }
         }
