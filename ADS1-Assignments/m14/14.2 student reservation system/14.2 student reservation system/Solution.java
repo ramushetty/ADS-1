@@ -88,7 +88,7 @@ class Student implements Comparable<Student> {
     public String getStudentName() {
         return this.studentName;
     }
-   
+
     /**
      * Gets the markss1.
      * Time complexity O(1).
