@@ -1,7 +1,6 @@
 Starting audit...
 [ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:5: Line has trailing spaces. [RegexpSingleline]
-[ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:38:16: Name 'BS' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
-[ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:99: Line has trailing spaces. [RegexpSingleline]
+[ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] H:\ADS-1\ADS1-Assignments\m3\3-sum\Solution.java:38:20: Name 'Bs' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 3 errors.
